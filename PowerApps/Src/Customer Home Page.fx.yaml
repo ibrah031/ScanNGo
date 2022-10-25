@@ -1,0 +1,82 @@
+"'Customer Home Page' As screen":
+
+    Label1_2 As label:
+        Align: =Align.Center
+        Fill: =RGBA(204, 208, 225, 1)
+        Font: =Font.Georgia
+        Height: =108
+        Size: =35
+        Text: ="Scan N Go"
+        Width: =640
+        ZIndex: =1
+
+    Label1_3 As label:
+        Align: =Align.Center
+        Fill: =RGBA(204, 208, 225, 1)
+        Font: =Font.Georgia
+        Height: =128
+        Size: =35
+        Text: =""
+        Width: =640
+        Y: =1008
+        ZIndex: =2
+
+    Icon8 As icon.Person:
+        Icon: =Icon.Person
+        X: =94
+        Y: =1026
+        ZIndex: =5
+
+    Icon9 As icon.ShoppingCart:
+        Icon: =Icon.ShoppingCart
+        X: =478
+        Y: =1026
+        ZIndex: =6
+
+    Icon10 As icon.Camera:
+        Height: =75
+        Icon: =Icon.Camera
+        Width: =98
+        X: =269
+        Y: =1015
+        ZIndex: =7
+
+    Label9_1 As label:
+        Height: =32
+        Size: =17
+        Text: ="Profile"
+        Width: =81
+        X: =85
+        Y: =1090
+        ZIndex: =9
+
+    Label9_2 As label:
+        Height: =32
+        Size: =21
+        Text: ="Scan"
+        Width: =77
+        X: =281
+        Y: =1090
+        ZIndex: =10
+
+    Label9_4 As label:
+        Height: =32
+        Size: =17
+        Text: ="Cart"
+        Width: =63
+        X: =490
+        Y: =1090
+        ZIndex: =12
+
+    Icon11 As icon.Search:
+        Icon: =Icon.Search
+        X: =542
+        Y: =22
+        ZIndex: =13
+
+    Icon12 As icon.Hamburger:
+        Icon: =Icon.Hamburger
+        X: =30
+        Y: =22
+        ZIndex: =14
+

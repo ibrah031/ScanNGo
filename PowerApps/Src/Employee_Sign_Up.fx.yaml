@@ -1,4 +1,4 @@
-Employee As screen:
+Employee_Sign_Up As screen:
 
     Label3 As label:
         Height: =70
