@@ -40,23 +40,3 @@ FirstScreen As screen:
         Y: =166
         ZIndex: =4
 
-    Label4 As label:
-        Height: =70
-        Size: =21
-        Text: |-
-            ="hello hiiii
-            "
-        Width: =560
-        X: =40
-        Y: =40
-        ZIndex: =5
-
-    Label5 As label:
-        Height: =70
-        Size: =21
-        Text: ="hifenjkfnkvcr"
-        Width: =560
-        X: =40
-        Y: =860
-        ZIndex: =6
-
