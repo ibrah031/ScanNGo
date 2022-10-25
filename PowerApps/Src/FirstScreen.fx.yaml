@@ -43,7 +43,7 @@ FirstScreen As screen:
     Label4 As label:
         Height: =70
         Size: =21
-        Text: ="hiii"
+        Text: ="jjj"
         Width: =560
         X: =40
         Y: =40
