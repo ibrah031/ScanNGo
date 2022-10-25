@@ -1,9 +1,26 @@
 {
   "ComponentIndexes": {},
   "ControlUniqueGuids": {},
-  "ControlUniqueIds": {},
+  "ControlUniqueIds": {
+    "App": 1,
+    "BarcodeScanner1": 16,
+    "Button1": 8,
+    "Button1_1": 7,
+    "Button2": 13,
+    "Button2_1": 10,
+    "FirstScreen": 3,
+    "Inventory": 9,
+    "Label1": 4,
+    "Label1_1": 6,
+    "Label2": 11,
+    "Label3": 14,
+    "Label4": 5,
+    "Register": 12,
+    "Screen1": 15
+  },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
+  "HeaderLastSavedDateTimeUTC": "10/25/2022 05:13:12",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -15,9 +32,41 @@
   "OrderGroupControls": {},
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
-  "OrderXMLTemplate": {},
-  "PublishOrderIndices": {},
+  "OrderXMLTemplate": {
+    "barcodeScanner": 2,
+    "button": 1,
+    "label": 0
+  },
+  "PublishOrderIndices": {
+    "App": 0,
+    "BarcodeScanner1": 15,
+    "Button1": 7,
+    "Button1_1": 6,
+    "Button2": 12,
+    "Button2_1": 9,
+    "FirstScreen": 2,
+    "Inventory": 8,
+    "Label1": 3,
+    "Label1_1": 5,
+    "Label2": 10,
+    "Label3": 13,
+    "Label4": 4,
+    "Register": 11,
+    "Screen1": 14
+  },
   "ResourcesJsonIndices": {},
   "RuleScreenIdWithoutScreen": {},
-  "TemplateVersions": {}
+  "TemplateVersions": {},
+  "VolatileProperties": {
+    "AnalysisLoadTime": 0.1140312,
+    "ControlCount": {
+      "barcodeScanner": 1,
+      "button": 4,
+      "label": 5,
+      "screen": 4
+    },
+    "DeserializationLoadTime": 0.4839231,
+    "ErrorCount": 0
+  },
+  "WasLocalDatabaseReferencesEmpty": true
 }
