@@ -1,0 +1,42 @@
+FirstScreen As screen:
+
+    Label1 As label:
+        Align: =Align.Center
+        Font: =Font.Georgia
+        Height: =70
+        Size: =35
+        Text: ="Welcome To Scan n Go!"
+        Width: =637
+        Y: =96
+        ZIndex: =1
+
+    Button1 As button:
+        Height: =70
+        OnSelect: =Navigate(Inventory)
+        Size: =24
+        Text: ="Inventory"
+        Width: =280
+        X: =178
+        Y: =599
+        ZIndex: =2
+
+    Button1_1 As button:
+        Height: =70
+        OnSelect: =Navigate(Register)
+        Size: =24
+        Text: ="Register"
+        Width: =280
+        X: =178
+        Y: =405
+        ZIndex: =3
+
+    Label1_1 As label:
+        Align: =Align.Center
+        Font: =Font.Georgia
+        Height: =70
+        Size: =25
+        Text: ="by NaPos"
+        Width: =637
+        Y: =166
+        ZIndex: =4
+

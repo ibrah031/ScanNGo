@@ -1,0 +1,20 @@
+Register As screen:
+
+    Label3 As label:
+        Height: =70
+        Size: =21
+        Text: ="Register"
+        Width: =560
+        X: =80
+        Y: =264
+        ZIndex: =1
+
+    Button2 As button:
+        Height: =50
+        OnSelect: =Navigate(FirstScreen)
+        Size: =24
+        Text: ="Home"
+        X: =40
+        Y: =40
+        ZIndex: =2
+
