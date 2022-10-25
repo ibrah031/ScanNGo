@@ -3,23 +3,23 @@
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
     "App": 1,
-    "BarcodeScanner1": 4,
-    "Button1": 9,
-    "Button1_1": 8,
-    "Button2": 11,
-    "Button2_1": 14,
-    "FirstScreen": 5,
-    "Inventory": 13,
-    "Label1": 6,
-    "Label1_1": 7,
-    "Label2": 15,
-    "Label3": 12,
-    "Register": 10,
-    "Screen1": 3
+    "BarcodeScanner1": 10,
+    "Button1": 15,
+    "Button1_1": 14,
+    "Button2": 4,
+    "Button2_1": 7,
+    "FirstScreen": 11,
+    "Inventory": 6,
+    "Label1": 12,
+    "Label1_1": 13,
+    "Label2": 8,
+    "Label3": 5,
+    "Register": 3,
+    "Screen1": 9
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "10/25/2022 04:26:23",
+  "HeaderLastSavedDateTimeUTC": "10/25/2022 04:49:22",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -32,8 +32,8 @@
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
   "OrderXMLTemplate": {
-    "barcodeScanner": 0,
-    "button": 2,
+    "barcodeScanner": 2,
+    "button": 0,
     "label": 1
   },
   "PublishOrderIndices": {
@@ -56,14 +56,14 @@
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.0934077,
+    "AnalysisLoadTime": 0.114733,
     "ControlCount": {
       "barcodeScanner": 1,
       "button": 4,
       "label": 4,
       "screen": 4
     },
-    "DeserializationLoadTime": 4.6575899,
+    "DeserializationLoadTime": 1.0832737,
     "ErrorCount": 0
   },
   "WasLocalDatabaseReferencesEmpty": true
