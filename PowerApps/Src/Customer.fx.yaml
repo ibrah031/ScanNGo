@@ -1,0 +1,22 @@
+Customer As screen:
+    Fill: =RGBA(175, 191, 224, 1)
+
+    Button2_1 As button:
+        Height: =50
+        OnSelect: =Navigate(FirstScreen)
+        Size: =24
+        Text: ="Home"
+        X: =40
+        Y: =40
+        ZIndex: =2
+
+    Label1_1 As label:
+        Align: =Align.Center
+        Fill: =RGBA(204, 208, 225, 1)
+        Font: =Font.Georgia
+        Height: =108
+        Size: =35
+        Text: ="Scan N Go"
+        Width: =640
+        ZIndex: =3
+

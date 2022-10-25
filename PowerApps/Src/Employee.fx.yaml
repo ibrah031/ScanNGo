@@ -1,4 +1,4 @@
-Register As screen:
+Employee As screen:
 
     Label3 As label:
         Height: =70

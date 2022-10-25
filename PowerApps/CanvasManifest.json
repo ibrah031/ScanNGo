@@ -111,7 +111,7 @@
   "ScreenOrder": [
     "FirstScreen",
     "Screen1",
-    "Inventory",
-    "Register"
+    "Customer",
+    "Employee"
   ]
 }
