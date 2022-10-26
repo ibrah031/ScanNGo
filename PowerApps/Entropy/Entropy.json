@@ -3,6 +3,7 @@
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
     "App": 1,
+    "BarcodeScanner4": 45,
     "Button1": 31,
     "Button2": 34,
     "Button2_1": 20,
@@ -45,7 +46,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "10/26/2022 23:32:11",
+  "HeaderLastSavedDateTimeUTC": "10/26/2022 23:36:09",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -66,15 +67,17 @@
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
   "OrderXMLTemplate": {
-    "button": 4,
-    "icon": 1,
-    "image": 3,
-    "label": 0,
-    "listbox": 2,
-    "text": 5
+    "barcodeScanner": 0,
+    "button": 5,
+    "icon": 2,
+    "image": 4,
+    "label": 1,
+    "listbox": 3,
+    "text": 6
   },
   "PublishOrderIndices": {
     "App": 0,
+    "BarcodeScanner4": 0,
     "Button1": 18,
     "Button2": 33,
     "Button2_1": 7,

@@ -117,3 +117,12 @@
         Y: =60
         ZIndex: =16
 
+    BarcodeScanner4 As barcodeScanner:
+        Height: =70
+        Size: =24
+        Text: ="Scan"
+        Width: =280
+        X: =158
+        Y: =810
+        ZIndex: =17
+
