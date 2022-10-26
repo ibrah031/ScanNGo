@@ -87,7 +87,8 @@
 
     ListBox2 As listbox:
         Default: ="Account Settings"
-        Height: =169
+        Fill: =RGBA(0, 0, 0, 0)
+        Height: =170
         Items: =["Account Settings","Store Assistance","Log out"]
         OnSelect: |-
             =If(
@@ -98,8 +99,8 @@
             )
         Size: =21
         Visible: =_popup
-        Width: =575
-        X: =30
+        Width: =534
+        X: =19
         Y: =86
         ZIndex: =15
 
@@ -109,7 +110,7 @@
         OnSelect: =Set(_popup, false) + Set(_CB,false)
         Visible: =_CB
         Width: =30
-        X: =594
+        X: =542
         Y: =60
         ZIndex: =16
 

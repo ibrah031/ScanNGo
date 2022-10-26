@@ -2514,7 +2514,14 @@
         "HoverColor",
         "PressedColor",
         "DisabledColor",
-        "Fill",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "Fill",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         "HoverFill",
         "PressedFill",
         "DisabledFill",
