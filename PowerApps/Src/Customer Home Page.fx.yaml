@@ -1,4 +1,5 @@
 "'Customer Home Page' As screen":
+    OnVisible: =
 
     Label1_2 As label:
         Align: =Align.Center
@@ -43,11 +44,11 @@
         ZIndex: =7
 
     Label9_1 As label:
+        Align: =Align.Center
         Height: =32
         Size: =17
-        Text: =TextInput1_1 
-        Width: =81
-        X: =85
+        Text: =TextInput1
+        Width: =251
         Y: =1090
         ZIndex: =9
 
@@ -70,15 +71,45 @@
         ZIndex: =12
 
     Icon11 As icon.Search:
+        Height: =53
         Icon: =Icon.Search
-        X: =542
-        Y: =22
+        Width: =52
+        X: =572
+        Y: =27
         ZIndex: =13
 
     Icon12 As icon.Hamburger:
         Icon: =Icon.Hamburger
-        OnSelect: =Set(_popup,false)
+        OnSelect: =Set(_popup,true) + Set(_CB, true)
         X: =30
         Y: =22
         ZIndex: =14
+
+    ListBox2 As listbox:
+        Default: ="Account Settings"
+        Height: =169
+        Items: =["Account Settings","Store Assistance","Log out"]
+        OnSelect: |-
+            =If(
+                ListBox2.SelectedText.Value = "Account Settings",
+                Navigate(
+                    Screen1
+                )
+            )
+        Size: =21
+        Visible: =_popup
+        Width: =575
+        X: =30
+        Y: =86
+        ZIndex: =15
+
+    Icon1 As icon.CancelBadge:
+        Height: =48
+        Icon: =Icon.CancelBadge
+        OnSelect: =Set(_popup, false)
+        Visible: =_CB
+        Width: =30
+        X: =594
+        Y: =60
+        ZIndex: =16
 
