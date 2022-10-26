@@ -45,7 +45,7 @@
     Label9_1 As label:
         Height: =32
         Size: =17
-        Text: ="Profile"
+        Text: =TextInput1_1 
         Width: =81
         X: =85
         Y: =1090
