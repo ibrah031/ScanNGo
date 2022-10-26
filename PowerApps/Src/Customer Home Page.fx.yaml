@@ -106,7 +106,7 @@
     Icon1 As icon.CancelBadge:
         Height: =48
         Icon: =Icon.CancelBadge
-        OnSelect: =Set(_popup, false)
+        OnSelect: =Set(_popup, false) + Set(_CB,false)
         Visible: =_CB
         Width: =30
         X: =594
