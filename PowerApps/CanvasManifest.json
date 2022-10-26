@@ -110,7 +110,6 @@
   },
   "ScreenOrder": [
     "FirstScreen",
-    "Screen1",
     "Customer_Sign_Up",
     "Customer Home Page",
     "Employee_Sign_Up"
