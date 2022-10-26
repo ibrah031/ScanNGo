@@ -37,7 +37,7 @@
     Icon10 As icon.Camera:
         Height: =75
         Icon: =Icon.Camera
-        OnSelect: =BarcodeType.Auto = Any
+        OnSelect: =BarcodeType.Auto
         Width: =98
         X: =269
         Y: =1015
@@ -116,4 +116,15 @@
         X: =542
         Y: =60
         ZIndex: =16
+
+    BarcodeScanner1 As barcodeScanner:
+        Fill: =RGBA(0, 0, 0, 0)
+        Height: =96
+        PressedColor: =Self.DisabledFill
+        Size: =24
+        Text: =""
+        Width: =77
+        X: =281
+        Y: =1026
+        ZIndex: =17
 
