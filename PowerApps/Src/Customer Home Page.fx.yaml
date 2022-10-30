@@ -37,9 +37,9 @@
     Icon10 As icon.Camera:
         Height: =75
         Icon: =Icon.Camera
-        OnSelect: =BarcodeScanner1
+        OnSelect: =Select(BarcodeScanner1)
         Width: =98
-        X: =269
+        X: =271
         Y: =1015
         ZIndex: =7
 
