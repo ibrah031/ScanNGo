@@ -57,7 +57,7 @@
         Size: =21
         Text: ="Scan"
         Width: =77
-        X: =281
+        X: =279
         Y: =1090
         ZIndex: =10
 
@@ -99,7 +99,7 @@
                 ),
                 ListBox2.SelectedText.Value = "Log out",
                 Navigate(
-                    Customer_Sign_Up
+                    FirstScreen
                 )
             )
              
@@ -124,12 +124,13 @@
 
     BarcodeScanner1 As barcodeScanner:
         Height: =128
+        OnScan: =Set(varOnScan,BarcodeScanner1.Value)
         Size: =24
         Text: ="Scan"
         Visible: =false
         Width: =105
-        X: =267
-        Y: =625
+        X: =265
+        Y: =1008
         ZIndex: =17
 
     Label10 As label:
