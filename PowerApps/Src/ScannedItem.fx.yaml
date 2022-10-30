@@ -1,7 +1,7 @@
-"'Customer Home Page' As screen":
+ScannedItem As screen:
     OnVisible: =
 
-    Label1_2 As label:
+    Label1_6 As label:
         Align: =Align.Center
         Fill: =RGBA(204, 208, 225, 1)
         Font: =Font.Georgia
@@ -11,7 +11,7 @@
         Width: =640
         ZIndex: =1
 
-    Label1_3 As label:
+    Label1_7 As label:
         Align: =Align.Center
         Fill: =RGBA(204, 208, 225, 1)
         Font: =Font.Georgia
@@ -22,28 +22,28 @@
         Y: =1008
         ZIndex: =2
 
-    Icon8 As icon.Person:
+    Icon8_2 As icon.Person:
         Icon: =Icon.Person
         X: =94
         Y: =1026
         ZIndex: =5
 
-    Icon9 As icon.ShoppingCart:
+    Icon9_2 As icon.ShoppingCart:
         Icon: =Icon.ShoppingCart
         X: =478
         Y: =1026
         ZIndex: =6
 
-    Icon10 As icon.Camera:
+    Icon10_1 As icon.Camera:
         Height: =75
         Icon: =Icon.Camera
-        OnSelect: =Select(BarcodeScanner1)
+        OnSelect: =
         Width: =98
         X: =271
         Y: =1015
         ZIndex: =7
 
-    Label9_1 As label:
+    Label9_5 As label:
         Align: =Align.Center
         Height: =32
         Size: =17
@@ -52,7 +52,7 @@
         Y: =1090
         ZIndex: =9
 
-    Label9_2 As label:
+    Label9_6 As label:
         Height: =32
         Size: =21
         Text: ="Scan"
@@ -61,7 +61,7 @@
         Y: =1090
         ZIndex: =10
 
-    Label9_4 As label:
+    Label9_7 As label:
         Height: =32
         Size: =17
         Text: ="Cart"
@@ -70,7 +70,7 @@
         Y: =1090
         ZIndex: =12
 
-    Icon11 As icon.Search:
+    Icon11_1 As icon.Search:
         Height: =53
         Icon: =Icon.Search
         Width: =52
@@ -78,14 +78,14 @@
         Y: =27
         ZIndex: =13
 
-    Icon12 As icon.Hamburger:
+    Icon12_1 As icon.Hamburger:
         Icon: =Icon.Hamburger
         OnSelect: =Set(_popup,true) + Set(_CB, true)
         X: =30
         Y: =22
         ZIndex: =14
 
-    ListBox2 As listbox:
+    ListBox2_1 As listbox:
         Default: ="Account Settings"
         Fill: =RGBA(0, 0, 0, 0)
         Font: =Font.'Lato Light'
@@ -93,11 +93,11 @@
         Items: =["Account Settings","Store Assistance","Log out"]
         OnSelect: |-
             =If(
-                ListBox2.SelectedText.Value = "Account Settings",
+                ListBox2_1.SelectedText.Value = "Account Settings",
                 Navigate(
                     Account_Settings
                 ),
-                ListBox2.SelectedText.Value = "Log out",
+                ListBox2_1.SelectedText.Value = "Log out",
                 Navigate(
                     FirstScreen
                 )
@@ -112,7 +112,7 @@
         Y: =86
         ZIndex: =15
 
-    Icon1 As icon.CancelBadge:
+    Icon1_1 As icon.CancelBadge:
         Height: =48
         Icon: =Icon.CancelBadge
         OnSelect: =Set(_popup, false) + Set(_CB,false)
@@ -122,31 +122,13 @@
         Y: =60
         ZIndex: =16
 
-    BarcodeScanner1 As barcodeScanner:
-        Height: =128
-        OnScan: =Set(varOnScan,BarcodeScanner1.Value) + Navigate(ScannedItem) 
-        Size: =24
-        Text: ="Scan"
-        Visible: =false
-        Width: =105
-        X: =265
-        Y: =1008
+    Label11 As label:
+        Height: =70
+        Size: =21
+        Text: |
+            =BarcodeScanner1.Value
+        Width: =560
+        X: =64
+        Y: =479
         ZIndex: =17
-
-    Label10 As label:
-        Align: =Align.Center
-        Height: =182
-        Size: =28
-        Text: ="Click the Scan icon to start shopping!"
-        Width: =605
-        X: =15
-        Y: =438
-        ZIndex: =18
-
-    Icon2 As icon.ArrowDown:
-        Height: =349
-        Width: =118
-        X: =261
-        Y: =694
-        ZIndex: =19
 
