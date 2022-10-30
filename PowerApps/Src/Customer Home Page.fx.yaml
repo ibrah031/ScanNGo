@@ -96,8 +96,13 @@
                 ListBox2.SelectedText.Value = "Account Settings",
                 Navigate(
                     Screen1
+                ),
+                ListBox2.SelectedText.Value = "Log out",
+                Navigate(
+                    Customer_Sign_Up
                 )
             )
+             
         SelectionColor: =RGBA(0, 0, 0, 1)
         SelectionFill: =RGBA(136, 160, 209, 1)
         Size: =18
@@ -126,4 +131,21 @@
         X: =267
         Y: =625
         ZIndex: =17
+
+    Label10 As label:
+        Align: =Align.Center
+        Height: =182
+        Size: =28
+        Text: ="Click the Scan icon to start shopping!"
+        Width: =605
+        X: =30
+        Y: =443
+        ZIndex: =18
+
+    Icon2 As icon.ArrowDown:
+        Height: =349
+        Width: =118
+        X: =261
+        Y: =694
+        ZIndex: =19
 
