@@ -30,6 +30,7 @@
 
     Icon9 As icon.ShoppingCart:
         Icon: =Icon.ShoppingCart
+        OnSelect: =Navigate(Cart)
         X: =478
         Y: =1026
         ZIndex: =6
@@ -63,6 +64,7 @@
 
     Label9_4 As label:
         Height: =32
+        OnSelect: =Navigate(Cart)
         Size: =17
         Text: ="Cart"
         Width: =63
@@ -124,7 +126,7 @@
 
     BarcodeScanner1 As barcodeScanner:
         Height: =128
-        OnScan: =Set(varOnScan,BarcodeScanner1.Value) + Navigate(ScannedItem) + Set(_image, true)
+        OnScan: =Set(varOnScan,BarcodeScanner1.Value) + Navigate(ScannedItem) + Set(_image, true) + Set(_cancelB, true) + Set(_ATC, true)
         Size: =24
         Text: ="Scan"
         Visible: =false

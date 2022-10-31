@@ -141,3 +141,25 @@ ScannedItem As screen:
         Y: =297
         ZIndex: =18
 
+    Button3 As button:
+        Height: =55
+        OnSelect: =Set(_cartNum, true)
+        Size: =24
+        Text: ="Add to cart"
+        Visible: =_ATC
+        Width: =247
+        X: =47
+        Y: =913
+        ZIndex: =19
+
+    Button3_1 As button:
+        Height: =55
+        OnSelect: =Navigate('Customer Home Page')
+        Size: =24
+        Text: ="Cancel"
+        Visible: =_cancelB
+        Width: =247
+        X: =340
+        Y: =913
+        ZIndex: =20
+
