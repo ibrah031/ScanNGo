@@ -123,12 +123,21 @@ ScannedItem As screen:
         ZIndex: =16
 
     Label11 As label:
+        Align: =Align.Center
         Height: =70
-        Size: =21
+        Size: =26
         Text: |
             =BarcodeScanner1.Value
         Width: =560
-        X: =64
-        Y: =479
+        X: =47
+        Y: =721
         ZIndex: =17
+
+    Image4 As image:
+        Height: =377
+        Visible: =_image
+        Width: =430
+        X: =94
+        Y: =297
+        ZIndex: =18
 

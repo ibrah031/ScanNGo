@@ -124,7 +124,7 @@
 
     BarcodeScanner1 As barcodeScanner:
         Height: =128
-        OnScan: =Set(varOnScan,BarcodeScanner1.Value) + Navigate(ScannedItem) 
+        OnScan: =Set(varOnScan,BarcodeScanner1.Value) + Navigate(ScannedItem) + Set(_image, true)
         Size: =24
         Text: ="Scan"
         Visible: =false
