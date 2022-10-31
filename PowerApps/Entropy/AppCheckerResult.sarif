@@ -674,6 +674,36 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "App._image"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "App._image",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "_image",
+                "module": "App",
+                "type": "App"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-UnusedVariables",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "App.varOnScan"
                 }
               ],

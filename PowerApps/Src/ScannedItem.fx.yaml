@@ -123,9 +123,9 @@ ScannedItem As screen:
         ZIndex: =16
 
     Label11 As label:
-        Align: =Align.Center
+        Font: =Font.'Segoe UI'
         Height: =70
-        Size: =26
+        Size: =30
         Text: |
             =BarcodeScanner1.Value
         Width: =560
@@ -155,12 +155,11 @@ ScannedItem As screen:
         Y: =913
         ZIndex: =20
 
-    Image7 As image:
-        Height: =385
+    Image8 As image:
+        Height: =433
         Image: ='soy candle'
-        Visible: =_image
-        Width: =370
-        X: =120
-        Y: =318
+        Width: =448
+        X: =94
+        Y: =283
         ZIndex: =21
 
