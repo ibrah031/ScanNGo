@@ -581,7 +581,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Icon1_1",
-      "ParentIndex": 3,
+      "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -922,7 +922,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Icon11_1",
-      "ParentIndex": 2,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1089,7 +1089,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Icon12_1",
-      "ParentIndex": 1,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1534,7 +1534,7 @@
       "StyleName": "defaultIconStyle",
       "Type": "ControlInfo"
     },
-    "Image4": {
+    "Image7": {
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
         "Image",
@@ -1584,8 +1584,8 @@
       "IsLocked": false,
       "LayoutName": "",
       "MetaDataIDKey": "",
-      "Name": "Image4",
-      "ParentIndex": 5,
+      "Name": "Image7",
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1837,7 +1837,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Label1_6",
-      "ParentIndex": 0,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -3542,7 +3542,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "ListBox2_1",
-      "ParentIndex": 4,
+      "ParentIndex": 5,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {

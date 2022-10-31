@@ -133,14 +133,6 @@ ScannedItem As screen:
         Y: =721
         ZIndex: =17
 
-    Image4 As image:
-        Height: =377
-        Visible: =_image
-        Width: =430
-        X: =94
-        Y: =297
-        ZIndex: =18
-
     Button3 As button:
         Height: =55
         OnSelect: =Set(_cartNum, true)
@@ -162,4 +154,13 @@ ScannedItem As screen:
         X: =340
         Y: =913
         ZIndex: =20
+
+    Image7 As image:
+        Height: =385
+        Image: ='soy candle'
+        Visible: =_image
+        Width: =370
+        X: =120
+        Y: =318
+        ZIndex: =21
 
