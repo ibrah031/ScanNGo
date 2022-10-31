@@ -156,10 +156,11 @@ ScannedItem As screen:
         ZIndex: =20
 
     Image8 As image:
-        Height: =433
+        Height: =385
         Image: ='soy candle'
-        Width: =448
-        X: =94
-        Y: =283
+        Visible: =_image
+        Width: =355
+        X: =140
+        Y: =282
         ZIndex: =21
 
