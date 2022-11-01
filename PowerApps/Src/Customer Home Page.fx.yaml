@@ -1,5 +1,5 @@
 "'Customer Home Page' As screen":
-    OnVisible: =
+    OnVisible: =scan_icon_mesg + arrow
 
     Label1_2 As label:
         Align: =Align.Center
@@ -76,53 +76,9 @@
         Height: =53
         Icon: =Icon.Search
         Width: =52
-        X: =572
-        Y: =27
-        ZIndex: =13
-
-    Icon12 As icon.Hamburger:
-        Icon: =Icon.Hamburger
-        OnSelect: =Set(_popup,true) + Set(_CB, true)
         X: =30
         Y: =22
-        ZIndex: =14
-
-    ListBox2 As listbox:
-        Default: =""
-        Fill: =RGBA(0, 0, 0, 0)
-        Font: =Font.'Lato Light'
-        Height: =142
-        Items: =["Account Settings","Store Assistance","Log out"]
-        OnSelect: |-
-            =If(
-                ListBox2.SelectedText.Value = "Account Settings",
-                Navigate(
-                    Account_Settings
-                ),
-                ListBox2.SelectedText.Value = "Log out",
-                Navigate(
-                    FirstScreen
-                )
-            )
-             
-        SelectionColor: =RGBA(0, 0, 0, 1)
-        SelectionFill: =RGBA(136, 160, 209, 1)
-        Size: =18
-        Visible: =_popup
-        Width: =534
-        X: =19
-        Y: =86
-        ZIndex: =15
-
-    Icon1 As icon.CancelBadge:
-        Height: =48
-        Icon: =Icon.CancelBadge
-        OnSelect: =Set(_popup, false) + Set(_CB,false)
-        Visible: =_CB
-        Width: =30
-        X: =542
-        Y: =60
-        ZIndex: =16
+        ZIndex: =13
 
     BarcodeScanner1 As barcodeScanner:
         Height: =128
@@ -140,6 +96,7 @@
         Height: =182
         Size: =28
         Text: ="Click the Scan icon to start shopping!"
+        Visible: =scan_icon_mesg
         Width: =605
         X: =15
         Y: =438
@@ -147,8 +104,26 @@
 
     Icon2 As icon.ArrowDown:
         Height: =349
+        Visible: =arrow
         Width: =118
         X: =261
         Y: =694
         ZIndex: =19
+
+    Icon6 As icon.Leave:
+        Height: =47
+        Icon: =Icon.Leave
+        OnSelect: =Set(_exit,true) + Set(scan_icon_mesg, false) + Set(arrow, false)
+        X: =542
+        Y: =22
+        ZIndex: =20
+
+    Label9 As label:
+        Height: =46
+        Size: =16
+        Text: ="Logout"
+        Width: =106
+        X: =534
+        Y: =62
+        ZIndex: =21
 
