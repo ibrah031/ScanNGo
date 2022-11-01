@@ -5,6 +5,7 @@
     "Account_Settings": 43,
     "App": 1,
     "BarcodeScanner1": 15,
+    "BarcodeScanner1_1": 117,
     "Button1": 38,
     "Button2": 41,
     "Button2_1": 27,
@@ -86,7 +87,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "11/01/2022 23:14:01",
+  "HeaderLastSavedDateTimeUTC": "11/01/2022 23:18:13",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -130,6 +131,7 @@
     "Account_Settings": 0,
     "App": 0,
     "BarcodeScanner1": 32,
+    "BarcodeScanner1_1": 32,
     "Button1": 18,
     "Button2": 72,
     "Button2_1": 7,
@@ -219,7 +221,7 @@
   "VolatileProperties": {
     "AnalysisLoadTime": 0.4034255,
     "ControlCount": {
-      "barcodeScanner": 2,
+      "barcodeScanner": 4,
       "button": 11,
       "group": 1,
       "icon": 19,

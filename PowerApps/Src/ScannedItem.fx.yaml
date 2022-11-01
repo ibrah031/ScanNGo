@@ -141,3 +141,14 @@ ScannedItem As screen:
         Y: =56
         ZIndex: =23
 
+    BarcodeScanner1_1 As barcodeScanner:
+        Height: =128
+        OnScan: =Set(varOnScan,BarcodeScanner1_1.Value) + Navigate(ScannedItem) + Set(_image, true) + Set(_cancelB, true) + Set(_ATC, true)
+        Size: =24
+        Text: ="Scan"
+        Visible: =false
+        Width: =72
+        X: =285
+        Y: =1008
+        ZIndex: =24
+

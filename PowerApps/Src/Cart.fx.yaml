@@ -106,11 +106,12 @@ Cart As screen:
         ZIndex: =9
 
     Label9_9 As label:
+        Align: =Align.Center
         Height: =32
         Size: =21
         Text: ="Scan"
         Width: =77
-        X: =279
+        X: =281
         Y: =1090
         ZIndex: =10
 
