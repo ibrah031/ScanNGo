@@ -113,7 +113,7 @@
     Icon6 As icon.Leave:
         Height: =47
         Icon: =Icon.Leave
-        OnSelect: =Set(_exit,true) + Set(scan_mesg, false) + Set(arrow, false)
+        OnSelect: =Set(_exit,true) + Set(scan_mesg, false) + Set(arrow, false) 
         X: =542
         Y: =22
         ZIndex: =20
@@ -159,6 +159,7 @@
         Button4 As button:
             Fill: =RGBA(0, 0, 0, 1)
             Height: =35
+            OnSelect: =Navigate(FirstScreen)
             Size: =16
             Text: ="Yes"
             Visible: =_exit

@@ -74,53 +74,9 @@ ScannedItem As screen:
         Height: =53
         Icon: =Icon.Search
         Width: =52
-        X: =572
+        X: =42
         Y: =27
         ZIndex: =13
-
-    Icon12_1 As icon.Hamburger:
-        Icon: =Icon.Hamburger
-        OnSelect: =Set(_popup,true) + Set(_CB, true)
-        X: =30
-        Y: =22
-        ZIndex: =14
-
-    ListBox2_1 As listbox:
-        Default: ="Account Settings"
-        Fill: =RGBA(0, 0, 0, 0)
-        Font: =Font.'Lato Light'
-        Height: =142
-        Items: =["Account Settings","Store Assistance","Log out"]
-        OnSelect: |-
-            =If(
-                ListBox2_1.SelectedText.Value = "Account Settings",
-                Navigate(
-                    Account_Settings
-                ),
-                ListBox2_1.SelectedText.Value = "Log out",
-                Navigate(
-                    FirstScreen
-                )
-            )
-             
-        SelectionColor: =RGBA(0, 0, 0, 1)
-        SelectionFill: =RGBA(136, 160, 209, 1)
-        Size: =18
-        Visible: =_popup
-        Width: =534
-        X: =19
-        Y: =86
-        ZIndex: =15
-
-    Icon1_1 As icon.CancelBadge:
-        Height: =48
-        Icon: =Icon.CancelBadge
-        OnSelect: =Set(_popup, false) + Set(_CB,false)
-        Visible: =_CB
-        Width: =30
-        X: =542
-        Y: =60
-        ZIndex: =16
 
     Label11 As label:
         Font: =Font.'Segoe UI'
@@ -163,4 +119,22 @@ ScannedItem As screen:
         X: =140
         Y: =282
         ZIndex: =21
+
+    Icon7 As icon.Home:
+        Height: =52
+        Icon: =Icon.Home
+        OnSelect: =Navigate('Customer Home Page')
+        X: =543
+        Y: =16
+        ZIndex: =22
+
+    Label13 As label:
+        Align: =Align.Center
+        OnSelect: =Navigate('Customer Home Page')
+        Size: =16
+        Text: ="Home"
+        Width: =100
+        X: =525
+        Y: =56
+        ZIndex: =23
 
