@@ -1,5 +1,5 @@
 "'Customer Home Page' As screen":
-    OnVisible: =scan_icon_mesg + arrow
+    OnVisible: =
 
     Label1_2 As label:
         Align: =Align.Center
@@ -96,7 +96,7 @@
         Height: =182
         Size: =28
         Text: ="Click the Scan icon to start shopping!"
-        Visible: =scan_icon_mesg
+        Visible: =scan_mesg = true
         Width: =605
         X: =15
         Y: =438
@@ -104,7 +104,7 @@
 
     Icon2 As icon.ArrowDown:
         Height: =349
-        Visible: =arrow
+        Visible: =arrow = true
         Width: =118
         X: =261
         Y: =694
@@ -113,7 +113,7 @@
     Icon6 As icon.Leave:
         Height: =47
         Icon: =Icon.Leave
-        OnSelect: =Set(_exit,true) + Set(scan_icon_mesg, false) + Set(arrow, false)
+        OnSelect: =Set(_exit,true) + Set(scan_mesg, false) + Set(arrow, false)
         X: =542
         Y: =22
         ZIndex: =20
@@ -126,4 +126,56 @@
         X: =534
         Y: =62
         ZIndex: =21
+
+    Group2 As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =26
+
+        Rectangle1 As rectangle:
+            Fill: =RGBA(214, 223, 238, 1)
+            Height: =220
+            Visible: =_exit
+            Width: =355
+            X: =134
+            Y: =230
+            ZIndex: =22
+
+        Label12 As label:
+            Align: =Align.Center
+            Height: =70
+            Size: =18
+            Text: |-
+                ="Are you sure you want to 
+                Logout?"
+            Visible: =_exit
+            Width: =415
+            X: =110
+            Y: =251
+            ZIndex: =23
+
+        Button4 As button:
+            Fill: =RGBA(0, 0, 0, 1)
+            Height: =35
+            Size: =16
+            Text: ="Yes"
+            Visible: =_exit
+            Width: =141
+            X: =158
+            Y: =383
+            ZIndex: =24
+
+        Button4_1 As button:
+            Fill: =RGBA(184, 0, 0, 1)
+            Height: =35
+            OnSelect: =Set(_exit,false) + Set(scan_mesg,true) + Set(arrow, true) 
+            Size: =16
+            Text: ="NO"
+            Visible: =_exit
+            Width: =141
+            X: =324
+            Y: =383
+            ZIndex: =25
 
