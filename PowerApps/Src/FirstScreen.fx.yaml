@@ -14,7 +14,7 @@ FirstScreen As screen:
     "'Customer page' As button":
         Fill: =RGBA(202, 202, 202, 1)
         Height: =70
-        OnSelect: =Navigate(Customer_Sign_Up)
+        OnSelect: =Navigate('Customer Home Page')
         Size: =24
         Text: ="Customer"
         Width: =280

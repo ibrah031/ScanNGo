@@ -48,7 +48,7 @@
         Align: =Align.Center
         Height: =32
         Size: =17
-        Text: =TextInput1
+        Text: ="Guest"
         Width: =251
         Y: =1090
         ZIndex: =9
@@ -88,7 +88,7 @@
         ZIndex: =14
 
     ListBox2 As listbox:
-        Default: ="Account Settings"
+        Default: =""
         Fill: =RGBA(0, 0, 0, 0)
         Font: =Font.'Lato Light'
         Height: =142
