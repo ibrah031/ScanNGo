@@ -91,7 +91,8 @@ ScannedItem As screen:
 
     Button3 As button:
         Height: =55
-        OnSelect: =Set(_cartNum, true)
+        OnSelect: |-
+            =Collect(collectMultiScan, {BarcodeInfo: BarcodeScanner1.Value, WhoScanned: "Guest#", WhenScanned: Now()})
         Size: =24
         Text: ="Add to cart"
         Visible: =_ATC
