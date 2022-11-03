@@ -46,7 +46,7 @@ Cart As screen:
             AccessibleLabel: =Self.Tooltip
             Height: =60
             Icon: =Icon.Cancel
-            OnSelect: =Remove(collectMultiScan,collectMultiScan.BarcodeInfo)
+            OnSelect: =Remove([@collectMultiScan],ThisItem)
             PaddingBottom: =10
             PaddingLeft: =10
             PaddingRight: =10
