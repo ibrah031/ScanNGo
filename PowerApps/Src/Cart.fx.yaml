@@ -152,6 +152,7 @@ Cart As screen:
         ZIndex: =23
 
     Button5 As button:
+        DisabledFill: =RGBA(244, 244, 244, 0)
         Height: =70
         OnSelect: =Set(_purchase, true)
         Size: =24
@@ -215,7 +216,7 @@ Cart As screen:
 
         Button6_1 As button:
             Height: =60
-            OnSelect: =Button5.DisplayMode.Disabled
+            OnSelect: =Button5.DisplayMode.Disabled + Set(_purchase, false)
             Size: =16
             Text: ="DONE"
             Visible: =_purchase
