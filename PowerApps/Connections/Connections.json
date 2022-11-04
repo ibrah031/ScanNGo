@@ -1,18 +1,18 @@
 {
-  "00ac6542-f44b-4f30-b084-a8587cba8b52": {
+  "3ede3aa5-3814-40cd-91e0-d6f3385e0167": {
     "connectionParameters": {
       "sku": "Enterprise"
     },
     "connectionRef": {
-      "displayName": "Excel",
-      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1599/1.0.1599.3017/excel/icon.png",
-      "id": "/providers/microsoft.powerapps/apis/shared_excel"
+      "displayName": "Excel Online (Business)",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1600/1.0.1600.3026/excelonlinebusiness/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_excelonlinebusiness"
     },
     "datasets": {
-      "b!kMq7OVBDtkiAZBPk-sajs1KJbbAgYCZGrD2Kre1u2OD5qXX9w8PNRqI_NXeEwUPl.01BALWRHWFSYOPYJSZ6JCKXQFZFM3PU25T": {
+      "me,b%2521kMq7OVBDtkiAZBPk-sajs1KJbbAgYCZGrD2Kre1u2OD5qXX9w8PNRqI_NXeEwUPl,01BALWRHWFSYOPYJSZ6JCKXQFZFM3PU25T": {
         "dataSources": {
           "Data": {
-            "tableName": "Data"
+            "tableName": "{AD1E5FCE-F7BB-4232-97E2-BBE4A4F0685A}"
           }
         }
       }
@@ -20,27 +20,8 @@
     "dataSources": [
       "Data"
     ],
-    "dependencies": {
-      "fileSource": "32c2a9a7-43a7-42f4-a25a-a69696c68695"
-    },
-    "dependents": [],
-    "id": "00ac6542-f44b-4f30-b084-a8587cba8b52"
-  },
-  "32c2a9a7-43a7-42f4-a25a-a69696c68695": {
-    "connectionParameters": {
-      "sku": "Enterprise"
-    },
-    "connectionRef": {
-      "displayName": "OneDrive for Business",
-      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1546/1.0.1546.2665/onedriveforbusiness/icon.png",
-      "id": "/providers/microsoft.powerapps/apis/shared_onedriveforbusiness"
-    },
-    "datasets": {},
-    "dataSources": [],
     "dependencies": {},
-    "dependents": [
-      "00ac6542-f44b-4f30-b084-a8587cba8b52"
-    ],
-    "id": "32c2a9a7-43a7-42f4-a25a-a69696c68695"
+    "dependents": [],
+    "id": "3ede3aa5-3814-40cd-91e0-d6f3385e0167"
   }
 }
