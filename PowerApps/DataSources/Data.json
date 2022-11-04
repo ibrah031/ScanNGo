@@ -1,0 +1,25 @@
+[
+  {
+    "ApiId": "/providers/microsoft.powerapps/apis/shared_excel",
+    "CdpRevision": {
+      "BaseUrl": "/",
+      "LastChangedTimeString": "2022-09-26T19:44:14.5210000Z",
+      "RevisionNumber": 1
+    },
+    "ConnectedDataSourceInfoNameMapping": {
+      "__PowerAppsId__": "Row id",
+      "Cost": "Cost",
+      "Description": "Description",
+      "ItemName": "ItemName",
+      "Quantity": "Quantity",
+      "SKU": "SKU",
+      "WholesalePrice": "WholesalePrice"
+    },
+    "DatasetName": "b!kMq7OVBDtkiAZBPk-sajs1KJbbAgYCZGrD2Kre1u2OD5qXX9w8PNRqI_NXeEwUPl.01BALWRHWFSYOPYJSZ6JCKXQFZFM3PU25T",
+    "EncodeDataset": true,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "Name": "Data",
+    "Type": "ConnectedDataSourceInfo"
+  }
+]

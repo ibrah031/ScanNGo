@@ -115,6 +115,7 @@
     "ScannedItem",
     "Cart",
     "Employee_Sign_Up",
-    "Account_Settings"
+    "Account_Settings",
+    "Inventory"
   ]
 }
