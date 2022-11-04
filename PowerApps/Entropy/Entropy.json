@@ -1,5 +1,7 @@
 {
-  "ComponentIndexes": {},
+  "ComponentIndexes": {
+    "Component1": 9
+  },
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
     "Account_Settings": 43,
@@ -18,13 +20,18 @@
     "Button6": 79,
     "Button6_1": 80,
     "Cart": 65,
+    "Component1": 128,
     "Customer Home Page": 20,
     "Customer page": 47,
     "Customer_Sign_Up": 3,
+    "DataCardKey3": 144,
+    "DataCardValue3": 145,
     "Dropdown1": 121,
     "Employee page": 48,
     "Employee_Sign_Up": 40,
+    "ErrorMessage3": 146,
     "FirstScreen": 44,
+    "Form3": 142,
     "Gallery3": 71,
     "galleryTemplate1": 100,
     "galleryTemplate3": 72,
@@ -73,8 +80,6 @@
     "Label14": 70,
     "Label15": 120,
     "Label16": 78,
-    "Label17": 122,
-    "Label19": 127,
     "Label2": 8,
     "Label3": 42,
     "Label4": 9,
@@ -96,6 +101,7 @@
     "LblAppName1": 92,
     "NextArrow1": 109,
     "NextArrow5": 74,
+    "Quantity_DataCard3": 143,
     "Rectangle1": 25,
     "Rectangle11": 98,
     "Rectangle2": 77,
@@ -104,6 +110,7 @@
     "SearchIcon1": 97,
     "Separator1": 110,
     "Separator5": 76,
+    "StarVisible3": 147,
     "Subtitle1": 107,
     "TextInput1": 13,
     "TextInput1_1": 16,
@@ -114,7 +121,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "11/04/2022 22:53:52",
+  "HeaderLastSavedDateTimeUTC": "11/04/2022 23:10:48",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "3ede3aa5-3814-40cd-91e0-d6f3385e0167": "\"/providers/microsoft.powerapps/apis/shared_excelonlinebusiness/connections/09bb0b71d77745a29797040e383292d4\""
@@ -128,14 +135,22 @@
     "Picture1": "https://docserverpwaprodwus.blob.core.windows.net/03958ed9-6347-4c85-a05d-48d2ec2bc8aa-1/resource/Assets0Images00c557cf1-c79c-4635-9639-9231547295b1.png?sv=2017-04-17&sr=b&sig=YXlqy%2Fk7fPvr8PDzAkgD1IPMQCk4k%2BRht%2BUdoBqKhIU%3D&spr=https&se=2022-11-05T22%3A57%3A57Z&sp=r",
     "soy candle": "https://docserverpwaprodwus.blob.core.windows.net/03958ed9-6347-4c85-a05d-48d2ec2bc8aa-1/resource/Assets0Images099cac3da-27d0-4e42-bf69-9b33da0fa14c.jpeg?sv=2017-04-17&sr=b&sig=%2BYTl3uIhNRO182LM0uoewGhSasCYyEnlfpPO3SYPGP8%3D&spr=https&se=2022-11-05T22%3A57%3A57Z&sp=r"
   },
-  "OrderComponentMetadata": {},
-  "OrderComponentTemplate": {},
+  "OrderComponentMetadata": {
+    "b08eb26c328d40a0a728be4ebe8757be": 0
+  },
+  "OrderComponentTemplate": {
+    "b08eb26c328d40a0a728be4ebe8757be": 0
+  },
   "OrderDataSource": {
-    "collectMultiScan": 4,
-    "CustomGallerySample": 0,
-    "Data": 3,
-    "DropDownSample": 1,
-    "ListboxSample": 2
+    "collectMultiScan": 8,
+    "CustomGallerySample": 3,
+    "Data": 6,
+    "Display Strings": 7,
+    "Display Strings\\componentstate": 1,
+    "Display Strings\\default.cds_displaystring_views": 2,
+    "Display Strings\\ismanaged": 0,
+    "DropDownSample": 4,
+    "ListboxSample": 5
   },
   "OrderGroupControls": {
     "Group2": {
@@ -157,6 +172,7 @@
     "barcodeScanner": 6,
     "button": 3,
     "dropdown": 8,
+    "form": 9,
     "gallery": 7,
     "icon": 2,
     "image": 1,
@@ -181,13 +197,18 @@
     "Button6": 68,
     "Button6_1": 69,
     "Cart": 0,
+    "Component1": 0,
     "Customer Home Page": 0,
     "Customer page": 2,
     "Customer_Sign_Up": 9,
+    "DataCardKey3": 100,
+    "DataCardValue3": 101,
     "Dropdown1": 96,
     "Employee page": 3,
     "Employee_Sign_Up": 12,
+    "ErrorMessage3": 102,
     "FirstScreen": 2,
+    "Form3": 97,
     "Gallery3": 60,
     "galleryTemplate1": 88,
     "galleryTemplate3": 61,
@@ -236,8 +257,6 @@
     "Label14": 59,
     "Label15": 95,
     "Label16": 67,
-    "Label17": 97,
-    "Label19": 0,
     "Label2": 8,
     "Label3": 79,
     "Label4": 9,
@@ -259,6 +278,7 @@
     "LblAppName1": 81,
     "NextArrow1": 91,
     "NextArrow5": 63,
+    "Quantity_DataCard3": 98,
     "Rectangle1": 25,
     "Rectangle11": 94,
     "Rectangle2": 66,
@@ -267,6 +287,7 @@
     "SearchIcon1": 86,
     "Separator1": 93,
     "Separator5": 65,
+    "StarVisible3": 99,
     "Subtitle1": 90,
     "TextInput1": 13,
     "TextInput1_1": 16,
@@ -298,7 +319,7 @@
       "text": 3
     },
     "DeserializationLoadTime": 1.7622831,
-    "ErrorCount": 0
+    "ErrorCount": 3
   },
-  "WasLocalDatabaseReferencesEmpty": true
+  "WasLocalDatabaseReferencesEmpty": false
 }
