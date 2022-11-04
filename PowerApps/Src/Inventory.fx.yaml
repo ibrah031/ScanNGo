@@ -51,9 +51,10 @@
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
-            Text: =ThisItem.Quantity
+            Text: |-
+                ="Quantity: " & ThisItem.Quantity & "     SKU# " & ThisItem.SKU & "     Price: " & ThisItem.Cost & "     Wholesale: " & ThisItem.WholesalePrice
             VerticalAlign: =VerticalAlign.Top
-            Width: =Parent.TemplateWidth - 104
+            Width: =543
             X: =32
             Y: =Subtitle1.Y + Subtitle1.Height + 4
             ZIndex: =3
@@ -124,6 +125,7 @@
         AccessibleLabel: =IconNewItem1.Tooltip
         Height: =88
         Icon: =Icon.Add
+        OnSelect: =Navigate(Add_Item_To_Inventory)
         PaddingBottom: =24
         PaddingLeft: =24
         PaddingRight: =24

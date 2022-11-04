@@ -14,6 +14,46 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "Add_Item_To_Inventory.IconAccept2.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Add_Item_To_Inventory.IconAccept2.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 9,
+                  "charOffset": 11,
+                  "snippet": {
+                    "text": "EditForm2"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Add_Item_To_Inventory",
+                "type": "Add_Item_To_Inventory.IconAccept2"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "EditForm2"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "'Up Date Inventory'.Form3.Quantity_DataCard3.DataCardValue3.Default"
                 }
               ],
@@ -43,7 +83,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrOperandExpected",
-          "ruleIndex": 0
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -83,7 +123,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrExpectedFound-Ex-Fnd",
-          "ruleIndex": 1
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -123,7 +163,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrUnknownFunction",
-          "ruleIndex": 2
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -163,7 +203,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 3
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -203,7 +243,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 3
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -1418,6 +1458,36 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "Add_Item_To_Inventory.Form4.SKU_DataCard4.DataCardValue18.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Add_Item_To_Inventory.Form4.SKU_DataCard4.DataCardValue18.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Add_Item_To_Inventory",
+                "type": "Add_Item_To_Inventory.Form4.SKU_DataCard4.DataCardValue18"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 8
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "App.varOnScan"
                 }
               ],
@@ -1480,6 +1550,23 @@
           "name": "PowerApps app checker",
           "rules": [
             {
+              "id": "app-ErrInvalidName",
+              "messageStrings": {
+                "issue": {
+                  "text": "Name isn't valid. '{0}' isn't recognized."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Remove or correct the reference to the name that isn't valid."
+                ],
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
               "id": "app-ErrOperandExpected",
               "messageStrings": {
                 "issue": {
@@ -1522,23 +1609,6 @@
               },
               "properties": {
                 "componentType": "app",
-                "level": "High",
-                "primaryCategory": "formula",
-                "whyFix": ""
-              }
-            },
-            {
-              "id": "app-ErrInvalidName",
-              "messageStrings": {
-                "issue": {
-                  "text": "Name isn't valid. '{0}' isn't recognized."
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "howToFix": [
-                  "Remove or correct the reference to the name that isn't valid."
-                ],
                 "level": "High",
                 "primaryCategory": "formula",
                 "whyFix": ""

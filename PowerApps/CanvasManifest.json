@@ -116,6 +116,7 @@
     "Employee_Sign_Up",
     "Account_Settings",
     "Inventory",
-    "Up Date Inventory"
+    "Up Date Inventory",
+    "Add_Item_To_Inventory"
   ]
 }
