@@ -1,0 +1,40 @@
+"'Up Date Inventory' As screen":
+
+    Label15 As label:
+        Align: =Align.Center
+        Height: =89
+        Size: =21
+        Text: |-
+            ="Selected Item you would like to update:"
+        Width: =640
+        Y: =75
+        ZIndex: =1
+
+    Dropdown1 As dropdown:
+        Height: =70
+        Items: =Data
+        Size: =21
+        Width: =575
+        X: =32
+        Y: =164
+        ZIndex: =2
+
+    Label17 As label:
+        Align: =Align.Center
+        Height: =70
+        Size: =21
+        Text: |-
+            ="Current Amount:"
+        Width: =640
+        Y: =301
+        ZIndex: =3
+
+    Label19 As label:
+        Height: =70
+        Size: =21
+        Text: =
+        Width: =560
+        X: =40
+        Y: =393
+        ZIndex: =4
+
