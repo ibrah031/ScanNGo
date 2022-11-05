@@ -93,6 +93,7 @@
     "FileID": "1b950cfe-05d4-43a5-812a-cb3aa4292fde",
     "Id": "5ae4d11a-6296-4901-a885-583e26bb18d4",
     "InstrumentationKey": "",
+    "LocalDatabaseReferences": "{}",
     "Name": "Scan N Go",
     "OriginatingVersion": "1.326"
   },
@@ -116,7 +117,7 @@
     "Employee_Sign_Up",
     "Account_Settings",
     "Inventory",
-    "Up Date Inventory",
-    "Add_Item_To_Inventory"
+    "Add_Item_To_Inventory",
+    "Up Date Inventory"
   ]
 }

@@ -62,7 +62,7 @@
         NextArrow1 As icon.ChevronRight:
             AccessibleLabel: =Self.Tooltip
             Height: =60
-            Icon: =Icon.ChevronRight
+            Icon: =Icon.Edit
             OnSelect: =Navigate('Up Date Inventory')
             PaddingBottom: =10
             PaddingLeft: =10
