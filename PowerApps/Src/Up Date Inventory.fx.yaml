@@ -385,3 +385,18 @@
                 Y: =DataCardKey51.Y
                 ZIndex: =4
 
+    Label22 As label:
+        Align: =Align.Center
+        BorderColor: =RGBA(0, 0, 0, 1)
+        BorderThickness: =5
+        Color: =RGBA(255, 0, 0, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =241
+        Size: =50
+        Text: ="NOT FUNCTIONAL YET"
+        Underline: =true
+        Width: =560
+        X: =40
+        Y: =795
+        ZIndex: =6
+
