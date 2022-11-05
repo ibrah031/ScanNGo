@@ -2,16 +2,17 @@
     BackgroundImage: =Picture1
     ImagePosition: =ImagePosition.Center
 
-    Button7 As button:
+    toReceipts As button:
         Height: =86
+        OnSelect: =Navigate(Receipts)
         Size: =24
-        Text: ="Reciepts"
+        Text: ="Receipts"
         Width: =361
         X: =139
         Y: =412
         ZIndex: =1
 
-    Button7_1 As button:
+    seeInventory As button:
         Height: =93
         OnSelect: =Navigate(Inventory)
         Size: =24
@@ -31,7 +32,7 @@
         Width: =640
         ZIndex: =3
 
-    Button7_2 As button:
+    addItem As button:
         Height: =93
         OnSelect: =Navigate(Add_Item_To_Inventory)
         Size: =24
@@ -51,7 +52,7 @@
         Y: =26
         ZIndex: =6
 
-    Button7_3 As button:
+    toSales As button:
         Height: =86
         Size: =24
         Text: |-
