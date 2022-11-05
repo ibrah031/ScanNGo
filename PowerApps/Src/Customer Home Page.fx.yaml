@@ -90,7 +90,9 @@
         Color: =RGBA(0, 0, 0, 1)
         Fill: =RGBA(0, 0, 0, 1)
         Height: =128
-        OnScan: =Set(varOnScan,BarcodeScanner1.Value) + Navigate(ScannedItem) + Set(_image, true) + Set(_cancelB, true) + Set(_ATC, true) + Set(barVal, true)
+        OnScan: |-
+            =Set(SearchValue, BarcodeScanner1.Value)
+            + Navigate(ScannedItem) + Set(_image, true) + Set(_cancelB, true) + Set(_ATC, true) + Set(barVal, true)
         Size: =24
         Text: ="Scan"
         Visible: =false
