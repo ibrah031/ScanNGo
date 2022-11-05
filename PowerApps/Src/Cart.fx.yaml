@@ -184,6 +184,13 @@ Cart As screen:
         Y: =170
         ZIndex: =25
 
+    Image1_3 As image:
+        Height: =125
+        Image: ='My project-1 (14)'
+        Width: =156
+        X: =238
+        ZIndex: =31
+
     Group3 As group:
         Height: =5
         Width: =5
@@ -235,11 +242,4 @@ Cart As screen:
             X: =358
             Y: =615
             ZIndex: =30
-
-    Image1_3 As image:
-        Height: =125
-        Image: ='My project-1 (14)'
-        Width: =156
-        X: =238
-        ZIndex: =31
 
