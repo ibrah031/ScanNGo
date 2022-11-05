@@ -9,6 +9,7 @@
         AccessibleLabel: =Self.Tooltip
         Height: =88
         Icon: =Icon.Cancel
+        OnSelect: =Navigate(Inventory)
         PaddingBottom: =22
         PaddingLeft: =22
         PaddingRight: =22
@@ -22,7 +23,7 @@
         AccessibleLabel: =Self.Tooltip
         Height: =88
         Icon: =Icon.Check
-        OnSelect: =SubmitForm(EditForm2)
+        OnSelect: =SubmitForm(Form8)
         PaddingBottom: =22
         PaddingLeft: =22
         PaddingRight: =22
@@ -45,7 +46,8 @@
     Form8 As form:
         DataSource: =Data
         DefaultMode: =FormMode.New
-        Height: =871
+        Height: =1048
+        NumberOfColumns: =1
         Width: =640
         Y: =88
         ZIndex: =5
@@ -132,7 +134,7 @@
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             MaxLength: =DataSourceInfo([@Data], DataSourceInfo.MaxLength, "ItemName")
-            Required: =false
+            Required: =true
             Update: =DataCardValue41.Text
             Width: =640
             X: =0
@@ -205,7 +207,7 @@
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             MaxLength: =DataSourceInfo([@Data], DataSourceInfo.MaxLength, "Description")
-            Required: =false
+            Required: =true
             Update: =DataCardValue40.Text
             Width: =640
             X: =0
@@ -278,7 +280,7 @@
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             MaxLength: =DataSourceInfo([@Data], DataSourceInfo.MaxLength, "Quantity")
-            Required: =false
+            Required: =true
             Update: =DataCardValue43.Text
             Width: =640
             X: =0
@@ -351,7 +353,7 @@
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             MaxLength: =DataSourceInfo([@Data], DataSourceInfo.MaxLength, "WholesalePrice")
-            Required: =false
+            Required: =true
             Update: =DataCardValue45.Text
             Width: =640
             X: =0
@@ -424,7 +426,7 @@
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             MaxLength: =DataSourceInfo([@Data], DataSourceInfo.MaxLength, "Price")
-            Required: =false
+            Required: =true
             Update: =DataCardValue42.Text
             Width: =640
             X: =0
