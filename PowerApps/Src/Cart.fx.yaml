@@ -17,7 +17,7 @@ Cart As screen:
             =If(
                 !IsBlank(ItemDescription.Text), 
                 Filter(Data, ItemDescription.Text in SKU),
-                Data
+                Data.SKU 
             )
         Layout: =Layout.Vertical
         TemplatePadding: =0
@@ -40,7 +40,7 @@ Cart As screen:
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
-            Text: =SearchValue
+            Text: =ThisItem.SKU
             VerticalAlign: =VerticalAlign.Top
             Width: =Parent.TemplateWidth - Image9.Width - 104
             X: =Image9.X + Image9.Width + 24
