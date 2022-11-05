@@ -81,12 +81,12 @@ ScannedItem As screen:
         Y: =27
         ZIndex: =13
 
-    Label11 As label:
+    ItemDescription As label:
         Font: =Font.'Segoe UI'
         Height: =70
         Size: =30
         Text: |
-            =BarcodeScanner1.Value
+            =If(!IsBlank(SearchValue), SearchValue)
         Visible: =barVal
         Width: =560
         X: =47
