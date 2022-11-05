@@ -115,9 +115,11 @@
     "ScannedItem",
     "Cart",
     "Employee_Sign_Up",
-    "Account_Settings",
+    "Employee Menu",
     "Inventory",
+    "Account_Settings",
     "Add_Item_To_Inventory",
-    "Up Date Inventory"
+    "Up Date Inventory",
+    "All Sales"
   ]
 }

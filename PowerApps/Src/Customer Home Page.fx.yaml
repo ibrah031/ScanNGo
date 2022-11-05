@@ -4,10 +4,10 @@
     Label1_2 As label:
         Align: =Align.Center
         Fill: =RGBA(204, 208, 225, 1)
-        Font: =Font.Georgia
+        Font: =Font.'Lato Black'
         Height: =108
         Size: =35
-        Text: ="Scan N Go"
+        Text: ="Scan'N'Go"
         Width: =640
         ZIndex: =1
 

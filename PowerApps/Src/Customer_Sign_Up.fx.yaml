@@ -111,8 +111,8 @@ Customer_Sign_Up As screen:
         Height: =39
         Icon: =Icon.Person
         Width: =44
-        X: =490
-        Y: =543
+        X: =486
+        Y: =534
         ZIndex: =14
 
     Icon5 As icon.Lock:

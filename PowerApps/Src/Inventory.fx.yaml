@@ -86,9 +86,9 @@
         Height: =88
         Size: =27
         Text: ="Inventory"
-        Width: =Parent.Width - LblAppName1.X - IconSortUpDown1.Width - IconNewItem1.Width - IconRefresh1.Width
+        Width: =195
         Wrap: =false
-        X: =20
+        X: =222
         ZIndex: =2
 
     IconRefresh1 As icon.Reload:
@@ -102,7 +102,7 @@
         TabIndex: =0
         Tooltip: ="Refresh list"
         Width: =88
-        X: =Parent.Width - IconNewItem1.Width - IconSortUpDown1.Width - IconRefresh1.Width
+        X: =79
         ZIndex: =3
 
     IconSortUpDown1 As icon.ArrowsUpDown:
@@ -169,4 +169,13 @@
         Width: =Parent.Width
         Y: =TextSearchBox1.Y + TextSearchBox1.Height
         ZIndex: =8
+
+    Arrow2_2 As arrow.backArrow:
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =54
+        OnSelect: =Navigate('Employee Menu')
+        Width: =52
+        X: =16
+        Y: =17
+        ZIndex: =9
 
