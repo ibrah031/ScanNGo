@@ -18,3 +18,13 @@ Employee_Sign_Up As screen:
         Y: =40
         ZIndex: =2
 
+    Button7 As button:
+        Height: =70
+        OnSelect: =Navigate(Inventory)
+        Size: =24
+        Text: ="Inventory"
+        Width: =280
+        X: =296
+        Y: =142
+        ZIndex: =3
+

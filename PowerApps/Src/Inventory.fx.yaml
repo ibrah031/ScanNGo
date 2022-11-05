@@ -52,7 +52,7 @@
             PaddingRight: =0
             PaddingTop: =0
             Text: |-
-                ="Quantity: " & ThisItem.Quantity & "     SKU# " & ThisItem.SKU & "     Price: " & ThisItem.Cost & "     Wholesale: " & ThisItem.WholesalePrice
+                ="Quantity: " & ThisItem.Quantity & "     SKU# " & ThisItem.SKU & "     Price: " & ThisItem.Price & "     Wholesale: " & ThisItem.WholesalePrice
             VerticalAlign: =VerticalAlign.Top
             Width: =543
             X: =32
