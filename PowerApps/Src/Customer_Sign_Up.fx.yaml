@@ -1,5 +1,5 @@
 Customer_Sign_Up As screen:
-    Fill: =RGBA(175, 191, 224, 1)
+    Fill: =RGBA(255, 255, 255, 1)
 
     Button2_1 As button:
         Height: =50
@@ -12,11 +12,12 @@ Customer_Sign_Up As screen:
 
     Label1_1 As label:
         Align: =Align.Center
-        Fill: =RGBA(204, 208, 225, 1)
+        BorderColor: =RGBA(166, 166, 166, 1)
+        Fill: =RGBA(166, 166, 166, 1)
         Font: =Font.Georgia
         Height: =108
         Size: =35
-        Text: ="Scan N Go"
+        Text: =""
         Width: =640
         ZIndex: =3
 
@@ -63,6 +64,7 @@ Customer_Sign_Up As screen:
         ZIndex: =9
 
     TextInput1 As text:
+        BorderColor: =RGBA(0, 0, 0, 1)
         Clear: =true
         Default: ="Text input"
         Height: =46
@@ -75,6 +77,7 @@ Customer_Sign_Up As screen:
         ZIndex: =10
 
     TextInput1_1 As text:
+        BorderColor: =RGBA(0, 0, 0, 1)
         Clear: =true
         Default: ="Text input"
         Height: =46
@@ -108,6 +111,7 @@ Customer_Sign_Up As screen:
         ZIndex: =13
 
     Icon4 As icon.Person:
+        Color: =RGBA(0, 0, 0, 1)
         Height: =39
         Icon: =Icon.Person
         Width: =44
@@ -116,6 +120,7 @@ Customer_Sign_Up As screen:
         ZIndex: =14
 
     Icon5 As icon.Lock:
+        Color: =RGBA(0, 0, 0, 1)
         Height: =46
         Icon: =Icon.Lock
         Width: =37
@@ -124,7 +129,9 @@ Customer_Sign_Up As screen:
         ZIndex: =15
 
     Button1 As button:
-        Fill: =RGBA(0, 16, 96, 1)
+        BorderColor: =ColorFade(Self.Fill, -100%)
+        Color: =RGBA(0, 0, 0, 1)
+        Fill: =RGBA(255, 255, 255, 1)
         Height: =42
         OnSelect: =Navigate('Customer Home Page')
         Size: =18
@@ -158,7 +165,7 @@ Customer_Sign_Up As screen:
 
     Image1 As image:
         Height: =99
-        Image: =Picture1
+        Image: ='My project-1 (14)'
         Width: =131
         X: =509
         Y: =4

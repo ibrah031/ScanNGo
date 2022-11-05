@@ -3,17 +3,17 @@
 
     Label1_2 As label:
         Align: =Align.Center
-        Fill: =RGBA(204, 208, 225, 1)
+        Fill: =RGBA(166, 166, 166, 1)
         Font: =Font.'Lato Black'
         Height: =108
         Size: =35
-        Text: ="Scan'N'Go"
+        Text: =""
         Width: =640
         ZIndex: =1
 
     Label1_3 As label:
         Align: =Align.Center
-        Fill: =RGBA(204, 208, 225, 1)
+        Fill: =RGBA(166, 166, 166, 1)
         Font: =Font.Georgia
         Height: =128
         Size: =35
@@ -23,12 +23,14 @@
         ZIndex: =2
 
     Icon8 As icon.Person:
+        Color: =RGBA(0, 0, 0, 1)
         Icon: =Icon.Person
         X: =94
         Y: =1026
         ZIndex: =5
 
     Icon9 As icon.ShoppingCart:
+        Color: =RGBA(0, 0, 0, 1)
         Icon: =Icon.ShoppingCart
         OnSelect: =Navigate(Cart)
         X: =478
@@ -36,6 +38,7 @@
         ZIndex: =6
 
     Icon10 As icon.Camera:
+        Color: =RGBA(0, 0, 0, 1)
         Height: =75
         Icon: =Icon.Camera
         OnSelect: =Select(BarcodeScanner1)
@@ -75,6 +78,7 @@
         ZIndex: =12
 
     Icon11 As icon.Search:
+        Color: =RGBA(0, 0, 0, 1)
         Height: =53
         Icon: =Icon.Search
         Width: =52
@@ -83,13 +87,15 @@
         ZIndex: =13
 
     BarcodeScanner1 As barcodeScanner:
+        Color: =RGBA(0, 0, 0, 1)
+        Fill: =RGBA(0, 0, 0, 1)
         Height: =128
         OnScan: =Set(varOnScan,BarcodeScanner1.Value) + Navigate(ScannedItem) + Set(_image, true) + Set(_cancelB, true) + Set(_ATC, true) + Set(barVal, true)
         Size: =24
         Text: ="Scan"
         Visible: =false
         Width: =105
-        X: =265
+        X: =150
         Y: =1008
         ZIndex: =17
 
@@ -113,6 +119,7 @@
         ZIndex: =19
 
     Icon6 As icon.Leave:
+        Color: =RGBA(0, 0, 0, 1)
         Height: =47
         Icon: =Icon.Leave
         OnSelect: =Set(_exit,true) + Set(scan_mesg, false) + Set(arrow, false) 
@@ -181,4 +188,12 @@
             X: =324
             Y: =383
             ZIndex: =25
+
+    Image1_2 As image:
+        Height: =99
+        Image: ='My project-1 (14)'
+        Width: =131
+        X: =253
+        Y: =9
+        ZIndex: =27
 
