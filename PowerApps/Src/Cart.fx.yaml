@@ -13,6 +13,7 @@ Cart As screen:
 
     "Gallery3 As gallery.'BrowseLayout_Vertical_OneTextOneImageVariant_ver4.0'":
         Height: =591
+        Items: =collectMultiScan
         Layout: =Layout.Vertical
         TemplatePadding: =0
         TemplateSize: =Min(128, Self.Height - 60)

@@ -92,10 +92,11 @@
         Height: =128
         OnScan: |-
             =// check if scanned item was found
+             Set(SearchValue, BarcodeScanner1.Value);
              If(
-                BarcodeScanner1.Value in Data.SKU,
+                SearchValue in Data.SKU,
                 true + Navigate(ScannedItem) + Set(_image, true) + Set(_cancelB, true) + Set(_ATC, true) + Set(barVal, true),
-                false
+                false +  Notify("ITEM NOT FOUND", NotificationType.Error)
             )
              
         Size: =24

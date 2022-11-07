@@ -90,7 +90,7 @@ ScannedItem As screen:
         Height: =70
         Size: =30
         Text: |
-            =BarcodeScanner1.Value
+            =SearchValue
         Visible: =barVal
         Width: =560
         X: =47
@@ -100,7 +100,7 @@ ScannedItem As screen:
     Add_to_cart As button:
         Height: =55
         OnSelect: |-
-            =Collect(collectMultiScan, {BarcodeInfo: BarcodeScanner1.Value, WhoScanned: "Guest#", WhenScanned: Now()})
+            =Collect(collectMultiScan, {BarcodeInfo: SearchValue, WhoScanned: "Guest#", WhenScanned: Now()})
         Size: =24
         Text: ="Add to cart"
         Visible: =_ATC
