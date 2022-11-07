@@ -14,11 +14,11 @@ Cart As screen:
     "Gallery3 As gallery.'BrowseLayout_Vertical_OneTextOneImageVariant_ver4.0'":
         Height: =591
         Items: |-
-            =If(
-                !IsBlank(ItemDescription.Text), 
+            =varCurrentRecord
+            /*If(!IsBlank(ItemDescription.Text), 
                 Filter(Data, ItemDescription.Text in SKU),
-                Data.SKU 
-            )
+                Data.SKU
+            )*/
         Layout: =Layout.Vertical
         TemplatePadding: =0
         TemplateSize: =Min(128, Self.Height - 60)
@@ -51,7 +51,7 @@ Cart As screen:
             AccessibleLabel: =Self.Tooltip
             Height: =60
             Icon: =Icon.Cancel
-            OnSelect: =Remove([@Data],ThisItem)
+            OnSelect: =Gallery3.Selected
             PaddingBottom: =10
             PaddingLeft: =10
             PaddingRight: =10
