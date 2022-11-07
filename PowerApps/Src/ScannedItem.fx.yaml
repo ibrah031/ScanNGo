@@ -90,7 +90,7 @@ ScannedItem As screen:
         Height: =70
         Size: =30
         Text: |
-            =If(!IsBlank(SearchValue), SearchValue)
+            =BarcodeScanner1.Value
         Visible: =barVal
         Width: =560
         X: =47

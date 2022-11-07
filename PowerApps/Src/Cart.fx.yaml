@@ -13,12 +13,6 @@ Cart As screen:
 
     "Gallery3 As gallery.'BrowseLayout_Vertical_OneTextOneImageVariant_ver4.0'":
         Height: =591
-        Items: |-
-            =varCurrentRecord
-            /*If(!IsBlank(ItemDescription.Text), 
-                Filter(Data, ItemDescription.Text in SKU),
-                Data.SKU
-            )*/
         Layout: =Layout.Vertical
         TemplatePadding: =0
         TemplateSize: =Min(128, Self.Height - 60)
@@ -40,7 +34,7 @@ Cart As screen:
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
-            Text: =SearchValue
+            Text: =BarcodeScanner1.Value
             VerticalAlign: =VerticalAlign.Top
             Width: =Parent.TemplateWidth - Image9.Width - 104
             X: =Image9.X + Image9.Width + 24
@@ -51,7 +45,7 @@ Cart As screen:
             AccessibleLabel: =Self.Tooltip
             Height: =60
             Icon: =Icon.Cancel
-            OnSelect: =Gallery3.Selected
+            OnSelect: =Deleted
             PaddingBottom: =10
             PaddingLeft: =10
             PaddingRight: =10
