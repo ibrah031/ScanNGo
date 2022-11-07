@@ -91,19 +91,13 @@
         Fill: =RGBA(0, 0, 0, 1)
         Height: =128
         OnScan: |-
-            =Set(SearchValue, BarcodeScanner1.Value);
-            // store the scanned item in a variable
-             Set(
-                 varCurrentRecord,
-                 LookUp(Data, SearchValue=BarcodeScanner1.Value)
-             );
-             // check if scanned item was found
+            =// check if scanned item was found
              If(
-                 IsBlank(varCurrentRecord),
-                 Notify("Item not found", NotificationType.Error)
-             );
+                BarcodeScanner1.Value in Data.SKU,
+                true + Navigate(ScannedItem) + Set(_image, true) + Set(_cancelB, true) + Set(_ATC, true) + Set(barVal, true),
+                false
+            )
              
-             Navigate(ScannedItem) + Set(_image, true) + Set(_cancelB, true) + Set(_ATC, true) + Set(barVal, true)
         Size: =24
         Text: ="Scan"
         Visible: =false
