@@ -117,11 +117,11 @@
     "Cart",
     "Employee_Sign_Up",
     "Employee Menu",
+    "Sales History",
+    "Receipts",
     "Inventory",
-    "Account_Settings",
     "Add_Item_To_Inventory",
     "Up Date Inventory",
-    "Receipts",
-    "Sales History"
+    "Account_Settings"
   ]
 }
