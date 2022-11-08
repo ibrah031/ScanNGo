@@ -1,13 +1,23 @@
 Receipts As screen:
 
+    Label1_12 As label:
+        Align: =Align.Center
+        Fill: =RGBA(166, 166, 166, 1)
+        Font: =Font.Georgia
+        Height: =108
+        Size: =35
+        Text: =""
+        Width: =640
+        ZIndex: =1
+
     "Gallery1 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
-        Height: =1048
+        Height: =1028
         Items: =CustomGallerySample
         Layout: =Layout.Vertical
         TemplatePadding: =0
         TemplateSize: =Min(160, Self.Height - 60)
-        Y: =88
-        ZIndex: =1
+        Y: =108
+        ZIndex: =2
 
         Image2 As image:
             Height: =128
@@ -68,11 +78,6 @@ Receipts As screen:
             Y: =Parent.TemplateHeight - 1
             ZIndex: =5
 
-    RectQuickActionBar3_1 As rectangle:
-        Height: =88
-        Width: =Parent.Width
-        ZIndex: =2
-
     LblAppName3_1 As label:
         Align: =Align.Center
         Height: =88
@@ -81,6 +86,7 @@ Receipts As screen:
         Width: =Parent.Width - IconCancel2.Width - IconAccept2.Width
         Wrap: =false
         X: =IconCancel2.X + IconCancel2.Width
+        Y: =12
         ZIndex: =3
 
     Icon1 As icon.ArrowLeft:
@@ -88,6 +94,13 @@ Receipts As screen:
         Icon: =Icon.ArrowLeft
         OnSelect: =Navigate('Employee Menu')
         X: =24
-        Y: =12
+        Y: =24
         ZIndex: =4
+
+    logo_1 As image:
+        Height: =125
+        Image: ='My project-1 (14)'
+        Width: =156
+        X: =484
+        ZIndex: =5
 

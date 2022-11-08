@@ -10,7 +10,7 @@
         Width: =640
         ZIndex: =1
 
-    Image1_6 As image:
+    logo As image:
         Height: =125
         Image: ='My project-1 (14)'
         Width: =156
