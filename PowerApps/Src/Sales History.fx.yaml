@@ -19,21 +19,21 @@
 
     Icon1_1 As icon.ArrowLeft:
         Color: =RGBA(255, 255, 255, 1)
-        Icon: =Icon.ArrowLeft
+        Icon: =Icon.BackArrow
         OnSelect: =Navigate('Employee Menu')
-        X: =24
-        Y: =30
+        X: =9
+        Y: =22
         ZIndex: =3
 
     LblAppName3_2 As label:
         Align: =Align.Center
-        Height: =88
+        Height: =84
         Size: =27
         Text: ="Sales History"
-        Width: =Parent.Width - IconCancel2.Width - IconAccept2.Width
+        Width: =301
         Wrap: =false
-        X: =73
-        Y: =18
+        X: =169
+        Y: =12
         ZIndex: =4
 
     "Gallery1_1 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":

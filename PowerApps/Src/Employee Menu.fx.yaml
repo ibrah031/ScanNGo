@@ -58,6 +58,7 @@
     toSales As button:
         Fill: =RGBA(166, 166, 166, 1)
         Height: =86
+        OnSelect: =Navigate('Sales History')
         Size: =24
         Text: |-
             ="Sales

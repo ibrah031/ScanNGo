@@ -80,18 +80,18 @@ Receipts As screen:
 
     LblAppName3_1 As label:
         Align: =Align.Center
-        Height: =88
+        Height: =70
         Size: =27
         Text: ="Receipts"
-        Width: =Parent.Width - IconCancel2.Width - IconAccept2.Width
+        Width: =281
         Wrap: =false
-        X: =IconCancel2.X + IconCancel2.Width
-        Y: =12
+        X: =179
+        Y: =19
         ZIndex: =3
 
     Icon1 As icon.ArrowLeft:
         Color: =RGBA(255, 255, 255, 1)
-        Icon: =Icon.ArrowLeft
+        Icon: =Icon.BackArrow
         OnSelect: =Navigate('Employee Menu')
         X: =24
         Y: =24
