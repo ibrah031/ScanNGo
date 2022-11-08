@@ -17,6 +17,7 @@ Employee_Sign_Up As screen:
         BorderColor: =RGBA(128, 128, 128, 1)
         Fill: =RGBA(255, 255, 255, 1)
         Height: =64
+        OnSelect: =Navigate(FirstScreen)
         Width: =66
         X: =33
         Y: =22
