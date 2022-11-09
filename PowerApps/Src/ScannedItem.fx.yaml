@@ -90,11 +90,11 @@ ScannedItem As screen:
         Height: =70
         Size: =30
         Text: |
-            =SearchValue
+            =
         Visible: =barVal
         Width: =560
         X: =47
-        Y: =721
+        Y: =755
         ZIndex: =17
 
     Add_to_cart As button:
