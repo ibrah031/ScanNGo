@@ -95,7 +95,7 @@
              Set(SearchValue, BarcodeScanner1.Value);
              If(
                 SearchValue in Data.SKU,
-                true + Navigate(ScannedItem) + Set(_image, true) + Set(_cancelB, true) + Set(_ATC, true) + Set(barVal, true),
+                true + Navigate(ScannedItem) + Set(_image, true) + Set(_cancelB, true) + Set(_ATC, true) + Set(barVal, true) + (TextInput2.Text = SearchValue),
                 false +  Notify("ITEM NOT FOUND", NotificationType.Error)
             )
              
