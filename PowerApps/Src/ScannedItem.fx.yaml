@@ -85,18 +85,6 @@ ScannedItem As screen:
         Y: =27
         ZIndex: =13
 
-    ItemDescription As label:
-        Font: =Font.'Segoe UI'
-        Height: =70
-        Size: =30
-        Text: |
-            =
-        Visible: =barVal
-        Width: =560
-        X: =47
-        Y: =755
-        ZIndex: =17
-
     Add_to_cart As button:
         Height: =55
         OnSelect: |-
@@ -157,12 +145,13 @@ ScannedItem As screen:
         ZIndex: =24
 
     "BrowseGallery1_1 As gallery.'BrowseLayout_Vertical_ThreeTextVariant_ver4.0'":
-        Height: =326
-        Items: =Search(Data, TextInput2.Text, "SKU")
+        Height: =348
+        Items: =Search(Data, SearchValue, "SKU")
         Layout: =Layout.Vertical
         ShowScrollbar: =false
         TemplatePadding: =0
         TemplateSize: =Min(168, Self.Height - 60)
+        Visible: =browsegallery
         Width: =Parent.Width
         Y: =667
         ZIndex: =25
