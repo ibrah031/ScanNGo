@@ -94,7 +94,7 @@
             =// check if scanned item was found
              Set(SearchValue, BarcodeScanner1.Value);
              If(
-                SearchValue in Data.SKU,
+                SearchValue in Data.ItemName,
                 true + Navigate(ScannedItem) + Set(_image, true) + Set(_cancelB, true) + Set(_ATC, true), 
                 //Set(barVal, true) + 
                 //Set(browsegallery, true),
