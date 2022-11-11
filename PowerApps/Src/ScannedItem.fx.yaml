@@ -148,13 +148,13 @@ ScannedItem As screen:
         Height: =320
         Items: |-
             =//SearchValue must be a string
-            Search(Data, SearchValue , "SKU")
+            Search(Data, SearchValue , "ItemName")
         Layout: =Layout.Vertical
         ShowScrollbar: =false
         TemplatePadding: =0
-        TemplateSize: =Min(168, Self.Height - 60)
+        TemplateSize: =205
         Width: =Parent.Width
-        Y: =546
+        Y: =664
         ZIndex: =25
 
         Title1_1 As label:
@@ -171,50 +171,22 @@ ScannedItem As screen:
             Y: =16
             ZIndex: =1
 
-        Subtitle1_1 As label:
-            Height: =Self.Size * 1.8
-            OnSelect: =Select(Parent)
-            PaddingBottom: =0
-            PaddingLeft: =0
-            PaddingRight: =0
-            PaddingTop: =0
-            Text: =ThisItem.Description
-            VerticalAlign: =VerticalAlign.Top
-            Width: =Parent.TemplateWidth - 104
-            X: =32
-            Y: =Title1_1.Y + Title1_1.Height + 2
-            ZIndex: =2
-
         Body1_1 As label:
-            Height: =Self.Size * 4
+            Height: =102
             OnSelect: =Select(Parent)
             PaddingBottom: =0
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
+            Size: =20
             Text: |-
-                ="Quantity: " & ThisItem.Quantity & "     SKU# " & ThisItem.SKU & "     Price: " & ThisItem.Price & "     Wholesale: " & ThisItem.WholesalePrice
+                ="Quantity: " & ThisItem.Quantity & Char(10) & "ItemDescription: " & ThisItem.Description & Char(10) & 
+                "Price: " & ThisItem.Price 
             VerticalAlign: =VerticalAlign.Top
             Width: =543
             X: =32
-            Y: =Subtitle1_1.Y + Subtitle1_1.Height + 4
+            Y: =77
             ZIndex: =3
-
-        NextArrow1_1 As icon.ChevronRight:
-            AccessibleLabel: =Self.Tooltip
-            Height: =60
-            Icon: =Icon.Edit
-            OnSelect: =Navigate('Up Date Inventory')
-            PaddingBottom: =10
-            PaddingLeft: =10
-            PaddingRight: =10
-            PaddingTop: =10
-            TabIndex: =0
-            Tooltip: ="View item details"
-            Width: =60
-            X: =Parent.TemplateWidth - Self.Width - 5
-            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
-            ZIndex: =4
 
         Separator1_1 As rectangle:
             Height: =1
