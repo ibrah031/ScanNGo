@@ -9,9 +9,12 @@
     "ConnectedDataSourceInfoNameMapping": {
       "__PowerAppsId__": "__PowerAppsId__",
       "Description": "Description",
+      "ID": "ID",
+      "Image": "Image",
       "ItemName": "ItemName",
       "Price": "Price",
       "Quantity": "Quantity",
+      "Sales_number": "Sales_number",
       "SKU": "SKU",
       "WholesalePrice": "WholesalePrice"
     },

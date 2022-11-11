@@ -151,9 +151,8 @@ ScannedItem As screen:
         ShowScrollbar: =false
         TemplatePadding: =0
         TemplateSize: =Min(168, Self.Height - 60)
-        Visible: =browsegallery
         Width: =Parent.Width
-        Y: =667
+        Y: =593
         ZIndex: =25
 
         Title1_1 As label:
