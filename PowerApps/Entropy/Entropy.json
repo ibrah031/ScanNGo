@@ -213,6 +213,7 @@
     "TextInput1_1": 115,
     "TextInput1_2": 180,
     "TextInput1_3": 182,
+    "TextInput2": 222,
     "TextSearchBox1": 157,
     "Title1": 161,
     "Title1_1": 76,
@@ -227,7 +228,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "11/11/2022 03:19:13",
+  "HeaderLastSavedDateTimeUTC": "11/11/2022 03:23:26",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "3ede3aa5-3814-40cd-91e0-d6f3385e0167": "\"/providers/microsoft.powerapps/apis/shared_excelonlinebusiness/connections/cfdb8c58d0fd45de8749330830243567\""
@@ -507,6 +508,7 @@
     "TextInput1_1": 15,
     "TextInput1_2": 91,
     "TextInput1_3": 93,
+    "TextInput2": 0,
     "TextSearchBox1": 130,
     "Title1": 134,
     "Title1_1": 47,

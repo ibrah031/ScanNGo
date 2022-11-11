@@ -145,14 +145,14 @@ ScannedItem As screen:
         ZIndex: =24
 
     "BrowseGallery1_1 As gallery.'BrowseLayout_Vertical_ThreeTextVariant_ver4.0'":
-        Height: =348
-        Items: =Search(Data, SearchValue, "SKU")
+        Height: =320
+        Items: =Search(Data, TextInput2.Text , "SKU")
         Layout: =Layout.Vertical
         ShowScrollbar: =false
         TemplatePadding: =0
         TemplateSize: =Min(168, Self.Height - 60)
         Width: =Parent.Width
-        Y: =593
+        Y: =546
         ZIndex: =25
 
         Title1_1 As label:
@@ -220,4 +220,13 @@ ScannedItem As screen:
             Width: =Parent.TemplateWidth
             Y: =Parent.TemplateHeight - 1
             ZIndex: =5
+
+    TextInput2 As text:
+        Default: =SearchValue
+        Height: =70
+        Size: =21
+        Width: =560
+        X: =27
+        Y: =461
+        ZIndex: =26
 
