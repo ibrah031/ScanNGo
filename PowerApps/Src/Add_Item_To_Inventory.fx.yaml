@@ -43,7 +43,7 @@
         Text: ="Add Item to Inventory"
         Width: =Parent.Width - IconCancel2.Width - IconAccept2.Width
         Wrap: =false
-        X: =IconCancel2.X + IconCancel2.Width
+        X: =126
         ZIndex: =4
 
     Form8 As form:
