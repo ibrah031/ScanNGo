@@ -35,7 +35,7 @@ Cart As screen:
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
-            Text: =BarcodeScanner1.Value
+            Text: =SearchValue
             VerticalAlign: =VerticalAlign.Top
             Width: =Parent.TemplateWidth - Image9.Width - 104
             X: =Image9.X + Image9.Width + 24
