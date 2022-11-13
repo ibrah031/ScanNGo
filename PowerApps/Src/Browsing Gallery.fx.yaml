@@ -52,7 +52,7 @@
             Height: =60
             Icon: =Icon.ChevronRight
             OnSelect: |-
-                =Navigate('Test: Adding to Cart',ScreenTransition.Cover)
+                =Reset(Slider1);Navigate('Test: Adding to Cart',ScreenTransition.Cover)
             PaddingBottom: =10
             PaddingLeft: =10
             PaddingRight: =10
