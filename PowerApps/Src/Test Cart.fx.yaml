@@ -216,3 +216,13 @@
         Y: =597
         ZIndex: =3
 
+    Label11 As label:
+        Height: =70
+        Size: =21
+        Text: |-
+            ="Total Price of Item(s): " & Slider1.Value * BrowseGallery.Selected.Price
+        Width: =560
+        X: =40
+        Y: =667
+        ZIndex: =4
+
