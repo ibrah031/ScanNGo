@@ -30,6 +30,8 @@
     "Button6": 164,
     "Button6_1": 165,
     "Button7": 339,
+    "Button8": 340,
+    "Button9": 341,
     "Cart": 149,
     "Component1": 3,
     "Customer Home Page": 123,
@@ -272,7 +274,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "11/13/2022 23:12:47",
+  "HeaderLastSavedDateTimeUTC": "11/13/2022 23:14:56",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "3ede3aa5-3814-40cd-91e0-d6f3385e0167": "\"/providers/microsoft.powerapps/apis/shared_excelonlinebusiness/connections/e0066966f63a4203b539ff2e6af5516e\""
@@ -371,6 +373,8 @@
     "Button6": 79,
     "Button6_1": 80,
     "Button7": 0,
+    "Button8": 0,
+    "Button9": 0,
     "Cart": 41,
     "Component1": 1,
     "Customer Home Page": 67,

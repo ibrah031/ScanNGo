@@ -97,3 +97,26 @@
         Y: =796
         ZIndex: =4
 
+    Button8 As button:
+        Height: =70
+        Size: =24
+        Text: |-
+            ="PURCHASE
+            "
+        Width: =280
+        X: =180
+        Y: =860
+        ZIndex: =5
+
+    Button9 As button:
+        Height: =70
+        OnSelect: =Clear(ShoppingCart)
+        Size: =20
+        Text: |-
+            ="REMOVE ALL ITEMS
+            "
+        Width: =280
+        X: =180
+        Y: =965
+        ZIndex: =6
+
