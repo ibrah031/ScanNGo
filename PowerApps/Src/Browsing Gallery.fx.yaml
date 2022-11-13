@@ -88,7 +88,7 @@
     Button7 As button:
         Height: =70
         OnSelect: |-
-            =Navigate('Test: Cart Screen')
+            =Navigate('Test: Cart Screen',ScreenTransition.Cover)
         Size: =24
         Text: |-
             ="CART
