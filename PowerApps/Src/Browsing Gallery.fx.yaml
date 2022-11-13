@@ -85,3 +85,16 @@
             Y: =75
             ZIndex: =6
 
+    Button7 As button:
+        Height: =70
+        OnSelect: |-
+            =Navigate('Test: Cart Screen')
+        Size: =24
+        Text: |-
+            ="CART
+            "
+        Width: =280
+        X: =180
+        Y: =950
+        ZIndex: =2
+
