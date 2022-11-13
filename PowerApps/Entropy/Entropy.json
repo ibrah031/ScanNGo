@@ -1,6 +1,6 @@
 {
   "ComponentIndexes": {
-    "Component1": 14
+    "Component1": 15
   },
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
@@ -17,6 +17,7 @@
     "BrowseGallery1": 44,
     "BrowseGallery1_1": 182,
     "BrowseGallery1_2": 129,
+    "Browsing Gallery": 225,
     "Button1": 211,
     "Button2": 80,
     "Button2_1": 200,
@@ -217,7 +218,8 @@
     "Subtitle2_1": 62,
     "Subtitle5": 132,
     "Subtitle6": 242,
-    "Test Cart": 225,
+    "Subtitle6_1": 246,
+    "Test Cart": 247,
     "TextInput1": 207,
     "TextInput1_1": 209,
     "TextInput1_2": 77,
@@ -238,7 +240,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "11/13/2022 22:10:21",
+  "HeaderLastSavedDateTimeUTC": "11/13/2022 22:21:03",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "3ede3aa5-3814-40cd-91e0-d6f3385e0167": "\"/providers/microsoft.powerapps/apis/shared_excelonlinebusiness/connections/e0066966f63a4203b539ff2e6af5516e\""
@@ -322,6 +324,7 @@
     "BrowseGallery1": 135,
     "BrowseGallery1_1": 50,
     "BrowseGallery1_2": 24,
+    "Browsing Gallery": 0,
     "Button1": 17,
     "Button2": 97,
     "Button2_1": 6,
@@ -522,6 +525,7 @@
     "Subtitle2_1": 114,
     "Subtitle5": 27,
     "Subtitle6": 0,
+    "Subtitle6_1": 0,
     "Test Cart": 0,
     "TextInput1": 13,
     "TextInput1_1": 15,
@@ -565,7 +569,7 @@
       "group": 3,
       "icon": 34,
       "image": 12,
-      "label": 87,
+      "label": 88,
       "rectangle": 12,
       "screen": 13,
       "text": 15,
