@@ -220,7 +220,7 @@
         Height: =70
         Size: =21
         Text: |-
-            ="Total Price of Item(s): " & Slider1.Value * BrowseGallery.Selected.Price
+            ="Total Price of Item(s): $" & Slider1.Value * BrowseGallery.Selected.Price & ".00"
         Width: =560
         X: =40
         Y: =667
