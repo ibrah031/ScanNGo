@@ -11,6 +11,52 @@
         Width: =640
         ZIndex: =1
 
+    "BrowseGallery1_2 As gallery.'BrowseLayout_Vertical_TwoTextVariant_ver4.0'":
+        Height: =613
+        Items: =Search(Data,SearchBox.Text,"Title")
+        Layout: =Layout.Vertical
+        ShowScrollbar: =false
+        TemplatePadding: =0
+        TemplateSize: =Min(104, Self.Height - 60)
+        Width: =Parent.Width
+        Y: =TextSearchBox1.Y + TextSearchBox1.Height
+        ZIndex: =1
+
+        Title8 As label:
+            Height: =Self.Size * 1.8
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Text: =ThisItem.ItemName
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Parent.TemplateWidth - 104
+            X: =32
+            Y: =16
+            ZIndex: =1
+
+        Subtitle5 As label:
+            Height: =Self.Size * 1.8
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Text: =ThisItem.Description
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Parent.TemplateWidth - 104
+            X: =32
+            Y: =Title8.Y + Title8.Height + 4
+            ZIndex: =2
+
+        Separator8 As rectangle:
+            Height: =1
+            OnSelect: =Select(Parent)
+            Width: =Parent.TemplateWidth
+            Y: =Parent.TemplateHeight - 1
+            ZIndex: =4
+
     Label1_3 As label:
         Align: =Align.Center
         Fill: =RGBA(166, 166, 166, 1)
@@ -81,8 +127,9 @@
         Color: =RGBA(0, 0, 0, 1)
         Height: =53
         Icon: =Icon.Search
+        OnSelect: =
         Width: =52
-        X: =30
+        X: =42
         Y: =22
         ZIndex: =13
 
@@ -116,16 +163,16 @@
         Text: ="Click the Scan icon to start shopping!"
         Visible: =scan_mesg = true
         Width: =605
-        X: =15
-        Y: =438
+        X: =35
+        Y: =861
         ZIndex: =18
 
     Icon2 As icon.ArrowDown:
         Height: =349
         Visible: =arrow = true
         Width: =118
-        X: =261
-        Y: =694
+        X: =258
+        Y: =659
         ZIndex: =19
 
     Icon6 As icon.Leave:
@@ -145,6 +192,16 @@
         X: =534
         Y: =62
         ZIndex: =21
+
+    SearchBox As text:
+        Default: =""
+        Height: =60
+        HintText: ="Search on Name"
+        Size: =21
+        Width: =266
+        X: =113
+        Y: =22
+        ZIndex: =26
 
     Group2 As group:
         Height: =5
@@ -198,12 +255,4 @@
             X: =324
             Y: =383
             ZIndex: =25
-
-    Image1_2 As image:
-        Height: =99
-        Image: ='My project-1 (14)'
-        Width: =131
-        X: =253
-        Y: =9
-        ZIndex: =27
 
