@@ -1,4 +1,4 @@
-"'Test Cart' As screen":
+"'Test: Adding to Cart' As screen":
 
     Form1 As form:
         DataSource: =Data
@@ -225,4 +225,15 @@
         X: =40
         Y: =667
         ZIndex: =4
+
+    Button3 As button:
+        Height: =70
+        OnSelect: |-
+            =Collect(ShoppingCart,{ItemName: BrowseGallery.Selected.ItemName,ItemCost: BrowseGallery.Selected.Price,Quantity: Slider1.Value}); Navigate('Browsing Gallery',ScreenTransition.Cover)
+        Size: =24
+        Text: ="ADD TO CART"
+        Width: =280
+        X: =40
+        Y: =737
+        ZIndex: =5
 

@@ -2084,19 +2084,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Test Cart'.Slider1.AccessibleLabel"
+                  "fullyQualifiedName": "'Test: Adding to Cart'.Slider1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Test Cart'.Slider1.AccessibleLabel",
+                  "fullyQualifiedName": "'Test: Adding to Cart'.Slider1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Test Cart",
-                "type": "'Test Cart'.Slider1"
+                "module": "Test: Adding to Cart",
+                "type": "'Test: Adding to Cart'.Slider1"
               }
             }
           ],
@@ -2234,19 +2234,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Test Cart'.Form1.Item"
+                  "fullyQualifiedName": "'Test: Adding to Cart'.Form1.Item"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Test Cart'.Form1.Item",
+                  "fullyQualifiedName": "'Test: Adding to Cart'.Form1.Item",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "Item",
-                "module": "Test Cart",
-                "type": "'Test Cart'.Form1"
+                "module": "Test: Adding to Cart",
+                "type": "'Test: Adding to Cart'.Form1"
               }
             }
           ],
@@ -2264,19 +2264,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Test Cart'.Form1.Price_DataCard4.DataCardValue14.Text"
+                  "fullyQualifiedName": "'Test: Adding to Cart'.Form1.Price_DataCard4.DataCardValue14.Text"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Test Cart'.Form1.Price_DataCard4.DataCardValue14.Text",
+                  "fullyQualifiedName": "'Test: Adding to Cart'.Form1.Price_DataCard4.DataCardValue14.Text",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "Text",
-                "module": "Test Cart",
-                "type": "'Test Cart'.Form1.Price_DataCard4.DataCardValue14"
+                "module": "Test: Adding to Cart",
+                "type": "'Test: Adding to Cart'.Form1.Price_DataCard4.DataCardValue14"
               }
             }
           ],
@@ -2294,19 +2294,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Test Cart'.Label11.Text"
+                  "fullyQualifiedName": "'Test: Adding to Cart'.Label11.Text"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Test Cart'.Label11.Text",
+                  "fullyQualifiedName": "'Test: Adding to Cart'.Label11.Text",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "Text",
-                "module": "Test Cart",
-                "type": "'Test Cart'.Label11"
+                "module": "Test: Adding to Cart",
+                "type": "'Test: Adding to Cart'.Label11"
               }
             }
           ],

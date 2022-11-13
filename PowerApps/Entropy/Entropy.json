@@ -1,6 +1,6 @@
 {
   "ComponentIndexes": {
-    "Component1": 15
+    "Component1": 16
   },
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
@@ -22,6 +22,7 @@
     "Button1": 211,
     "Button2": 80,
     "Button2_1": 200,
+    "Button3": 325,
     "Button3_1": 188,
     "Button4": 136,
     "Button4_1": 137,
@@ -238,7 +239,8 @@
     "Subtitle5": 132,
     "Subtitle6": 242,
     "Subtitle6_1": 246,
-    "Test Cart": 247,
+    "Test: Adding to Cart": 247,
+    "Test: Cart Screen": 326,
     "TextInput1": 207,
     "TextInput1_1": 209,
     "TextInput1_2": 77,
@@ -259,7 +261,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "11/13/2022 22:44:39",
+  "HeaderLastSavedDateTimeUTC": "11/13/2022 22:56:48",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "3ede3aa5-3814-40cd-91e0-d6f3385e0167": "\"/providers/microsoft.powerapps/apis/shared_excelonlinebusiness/connections/e0066966f63a4203b539ff2e6af5516e\""
@@ -293,7 +295,8 @@
     "CustomGallerySample": 1,
     "Data": 2,
     "DropDownSample": 3,
-    "ListboxSample": 4
+    "ListboxSample": 4,
+    "ShoppingCart": 6
   },
   "OrderGroupControls": {
     "Group1": {
@@ -349,6 +352,7 @@
     "Button1": 17,
     "Button2": 97,
     "Button2_1": 6,
+    "Button3": 0,
     "Button3_1": 56,
     "Button4": 32,
     "Button4_1": 33,
@@ -565,7 +569,8 @@
     "Subtitle5": 27,
     "Subtitle6": 214,
     "Subtitle6_1": 213,
-    "Test Cart": 0,
+    "Test: Adding to Cart": 0,
+    "Test: Cart Screen": 0,
     "TextInput1": 13,
     "TextInput1_1": 15,
     "TextInput1_2": 94,
