@@ -7,7 +7,7 @@
 
     "BrowseGallery1 As gallery.'BrowseLayout_Vertical_ThreeTextVariant_ver4.0'":
         Height: =Parent.Height - BrowseGallery1.Y
-        Items: =Data
+        Items: =SortByColumns(Search(Data, TextSearchBox1.Text,"ItemName"), "ItemName",If(SortDescending1, Descending, Ascending))
         Layout: =Layout.Vertical
         ShowScrollbar: =false
         TemplatePadding: =0
