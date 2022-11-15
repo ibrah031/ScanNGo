@@ -11,7 +11,7 @@ Cart As screen:
         Width: =640
         ZIndex: =1
 
-    "Gallery2 As gallery.'BrowseLayout_Vertical_ThreeTextOneImageVariant_ver4.0'":
+    "Gallery2 As gallery.'BrowseLayout_Vertical_ThreeTextVariant_ver4.0'":
         Height: =600
         Items: =collectMultiScan
         Layout: =Layout.Vertical
