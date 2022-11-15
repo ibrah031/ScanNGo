@@ -16,7 +16,7 @@ Cart As screen:
         Items: =collectMultiScan
         Layout: =Layout.Vertical
         TemplatePadding: =0
-        TemplateSize: =Min(168, Self.Height - 60)
+        TemplateSize: =230
         Y: =250
         ZIndex: =1
 
@@ -30,36 +30,36 @@ Cart As screen:
             Text: =ThisItem.Title
             VerticalAlign: =VerticalAlign.Top
             Width: =Parent.TemplateWidth - 104
-            X: =32
-            Y: =16
+            X: =18
+            Y: =32
             ZIndex: =1
 
         Subtitle9 As label:
-            Height: =Self.Size * 1.8
+            Height: =47
             OnSelect: =Select(Parent)
             PaddingBottom: =0
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
-            Text: =ThisItem.Price
+            Text: =ThisItem.ItemDescription
             VerticalAlign: =VerticalAlign.Top
             Width: =Parent.TemplateWidth - 104
-            X: =32
-            Y: =Title11.Y + Title11.Height + 2
+            X: =18
+            Y: =71
             ZIndex: =2
 
         Body3 As label:
-            Height: =Self.Size * 4
+            Height: =41
             OnSelect: =Select(Parent)
             PaddingBottom: =0
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
-            Text: =ThisItem.Qty
+            Text: =ThisItem.Price  
             VerticalAlign: =VerticalAlign.Top
             Width: =Parent.TemplateWidth - 104
-            X: =32
-            Y: =Subtitle9.Y + Subtitle9.Height + 4
+            X: =18
+            Y: =97
             ZIndex: =3
 
         NextArrow9 As icon.ChevronRight:
@@ -84,6 +84,34 @@ Cart As screen:
             Width: =Parent.TemplateWidth
             Y: =Parent.TemplateHeight - 1
             ZIndex: =5
+
+        Body3_1 As label:
+            Height: =41
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Text: =ThisItem.Qty
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Parent.TemplateWidth - 104
+            X: =18
+            Y: =146
+            ZIndex: =6
+
+        Body3_2 As label:
+            Height: =41
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Text: =ThisItem.SubTotal
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Parent.TemplateWidth - 104
+            X: =18
+            Y: =189
+            ZIndex: =7
 
     Label1_9 As label:
         Align: =Align.Center
