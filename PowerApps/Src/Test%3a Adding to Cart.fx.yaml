@@ -237,3 +237,19 @@
         Y: =737
         ZIndex: =5
 
+    Icon12 As icon.Add:
+        Icon: =Icon.Add
+        OnSelect: =Label1 + 1
+        X: =369
+        Y: =930
+        ZIndex: =6
+
+    Label1 As label:
+        Height: =70
+        Size: =35
+        Text: =0
+        Width: =76
+        X: =293
+        Y: =924
+        ZIndex: =7
+
