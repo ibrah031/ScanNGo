@@ -11,42 +11,34 @@ Cart As screen:
         Width: =640
         ZIndex: =1
 
-    "Gallery3 As gallery.'BrowseLayout_Vertical_OneTextOneImageVariant_ver4.0'":
-        Height: =591
+    "Gallery2 As gallery.'BrowseLayout_Vertical_OneTextVariant_ver4.0'":
+        Height: =600
         Items: =collectMultiScan
         Layout: =Layout.Vertical
         TemplatePadding: =0
-        TemplateSize: =Min(128, Self.Height - 60)
-        Y: =259
+        TemplateSize: =Min(96, Self.Height - 60)
+        Y: =250
         ZIndex: =1
 
-        Image9 As image:
-            Height: =96
-            OnSelect: =Select(Parent)
-            Width: =96
-            X: =16
-            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
-            ZIndex: =1
-
-        Title6 As label:
+        Title10 As label:
             Height: =Self.Size * 1.8
             OnSelect: =Select(Parent)
             PaddingBottom: =0
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
-            Text: =SearchValue
+            Text: =ThisItem.Title
             VerticalAlign: =VerticalAlign.Top
-            Width: =Parent.TemplateWidth - Image9.Width - 104
-            X: =Image9.X + Image9.Width + 24
+            Width: =Parent.TemplateWidth - 104
+            X: =32
             Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
-            ZIndex: =2
+            ZIndex: =1
 
-        NextArrow5 As icon.ChevronRight:
+        NextArrow8 As icon.ChevronRight:
             AccessibleLabel: =Self.Tooltip
             Height: =60
-            Icon: =Icon.Cancel
-            OnSelect: =Deleted
+            Icon: =Icon.ChevronRight
+            OnSelect: =Select(Parent)
             PaddingBottom: =10
             PaddingLeft: =10
             PaddingRight: =10
@@ -56,14 +48,14 @@ Cart As screen:
             Width: =60
             X: =Parent.TemplateWidth - Self.Width - 5
             Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
-            ZIndex: =3
+            ZIndex: =2
 
-        Separator5 As rectangle:
+        Separator10 As rectangle:
             Height: =1
             OnSelect: =Select(Parent)
             Width: =Parent.TemplateWidth
             Y: =Parent.TemplateHeight - 1
-            ZIndex: =4
+            ZIndex: =3
 
     Label1_9 As label:
         Align: =Align.Center
@@ -164,8 +156,8 @@ Cart As screen:
         Size: =24
         Text: ="Purchase"
         Width: =280
-        X: =24
-        Y: =896
+        X: =16
+        Y: =916
         ZIndex: =24
 
     Label14 As label:

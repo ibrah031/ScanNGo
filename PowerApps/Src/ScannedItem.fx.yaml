@@ -86,15 +86,17 @@ ScannedItem As screen:
         ZIndex: =13
 
     Add_to_cart As button:
-        Height: =55
+        Height: =42
         OnSelect: |-
-            =Collect(collectMultiScan, {BarcodeInfo: SearchValue, WhoScanned: "Guest#", WhenScanned: Now()})
+            =Collect(collectMultiScan, {Title: SearchValue, ItemDescription: Body1_1, Price: Body1_2, Qty: Body1_3, SubTotal: (Slider1_1.Value * Body1_2)});  
+            
+            Reset(Slider1_1);
         Size: =24
         Text: ="Add to cart"
         Visible: =_ATC
-        Width: =247
-        X: =47
-        Y: =913
+        Width: =217
+        X: =24
+        Y: =939
         ZIndex: =19
 
     Button3_1 As button:
@@ -109,12 +111,12 @@ ScannedItem As screen:
         ZIndex: =20
 
     Image8 As image:
-        Height: =385
+        Height: =340
         Image: ='soy candle'
         Visible: =_image
         Width: =355
-        X: =140
-        Y: =282
+        X: =132
+        Y: =182
         ZIndex: =21
 
     Icon7 As icon.Home:
@@ -145,16 +147,16 @@ ScannedItem As screen:
         ZIndex: =24
 
     "BrowseGallery1_1 As gallery.'BrowseLayout_Vertical_ThreeTextVariant_ver4.0'":
-        Height: =320
+        Height: =365
         Items: |-
             =//SearchValue must be a string
             Search(Data, SearchValue , "ItemName")
         Layout: =Layout.Vertical
         ShowScrollbar: =false
         TemplatePadding: =0
-        TemplateSize: =205
+        TemplateSize: =346
         Width: =Parent.Width
-        Y: =664
+        Y: =561
         ZIndex: =25
 
         Title1_1 As label:
@@ -172,7 +174,7 @@ ScannedItem As screen:
             ZIndex: =1
 
         Body1_1 As label:
-            Height: =102
+            Height: =43
             OnSelect: =Select(Parent)
             PaddingBottom: =0
             PaddingLeft: =0
@@ -180,12 +182,11 @@ ScannedItem As screen:
             PaddingTop: =0
             Size: =20
             Text: |-
-                ="Quantity: " & ThisItem.Quantity & Char(10) & "ItemDescription: " & ThisItem.Description & Char(10) & 
-                "Price: " & ThisItem.Price 
+                = "ItemDescription: " & ThisItem.Description
             VerticalAlign: =VerticalAlign.Top
             Width: =543
             X: =32
-            Y: =77
+            Y: =91
             ZIndex: =3
 
         Separator1_1 As rectangle:
@@ -194,4 +195,55 @@ ScannedItem As screen:
             Width: =Parent.TemplateWidth
             Y: =Parent.TemplateHeight - 1
             ZIndex: =5
+
+        Body1_2 As label:
+            Height: =43
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =20
+            Text: |-
+                = "Price: " & ThisItem.Price
+            VerticalAlign: =VerticalAlign.Top
+            Width: =543
+            X: =32
+            Y: =134
+            ZIndex: =6
+
+        Body1_3 As label:
+            Height: =43
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =20
+            Text: |-
+                = "Qty: " & Slider1_1.Value
+            VerticalAlign: =VerticalAlign.Top
+            Width: =543
+            X: =32
+            Y: =177
+            ZIndex: =7
+
+    Slider1_1 As slider:
+        Default: =0
+        Height: =44
+        Max: =20
+        Width: =214
+        X: =27
+        Y: =780
+        ZIndex: =26
+
+    Label11_1 As label:
+        Height: =70
+        Size: =21
+        Text: |-
+            ="SubTotal: $" & Slider1_1.Value * BrowseGallery.Selected.Price & ".00"
+        Width: =560
+        X: =29
+        Y: =824
+        ZIndex: =27
 
