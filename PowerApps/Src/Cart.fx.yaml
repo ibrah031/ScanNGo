@@ -114,7 +114,8 @@ Cart As screen:
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
-            Text: =ThisItem.SubTotal
+            Text: |
+                ="SubTotal: $" & Slider1_1.Value * BrowseGallery1_1.Selected.Price & ".00"
             VerticalAlign: =VerticalAlign.Top
             Width: =Subtitle10.Width
             X: =167
