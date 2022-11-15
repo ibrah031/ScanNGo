@@ -255,9 +255,8 @@
 
     Component1_2 As Component1:
         Increments: =1
-        Max: =1
+        Max: =10
         Min: =0
         StartNumber: =0
-        Y: =936
         ZIndex: =8
 
