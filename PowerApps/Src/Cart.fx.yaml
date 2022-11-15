@@ -30,8 +30,8 @@ Cart As screen:
             Text: =ThisItem.Title
             VerticalAlign: =VerticalAlign.Top
             Width: =Parent.TemplateWidth - 104
-            X: =18
-            Y: =32
+            X: =52
+            Y: =35
             ZIndex: =1
 
         Subtitle9 As label:
@@ -44,7 +44,7 @@ Cart As screen:
             Text: =ThisItem.ItemDescription
             VerticalAlign: =VerticalAlign.Top
             Width: =Parent.TemplateWidth - 104
-            X: =18
+            X: =39
             Y: =71
             ZIndex: =2
 
@@ -58,8 +58,8 @@ Cart As screen:
             Text: =ThisItem.Price  
             VerticalAlign: =VerticalAlign.Top
             Width: =Parent.TemplateWidth - 104
-            X: =18
-            Y: =97
+            X: =39
+            Y: =109
             ZIndex: =3
 
         NextArrow9 As icon.ChevronRight:
@@ -95,7 +95,7 @@ Cart As screen:
             Text: =ThisItem.Qty
             VerticalAlign: =VerticalAlign.Top
             Width: =Parent.TemplateWidth - 104
-            X: =18
+            X: =39
             Y: =146
             ZIndex: =6
 
@@ -109,7 +109,7 @@ Cart As screen:
             Text: =ThisItem.SubTotal
             VerticalAlign: =VerticalAlign.Top
             Width: =Parent.TemplateWidth - 104
-            X: =18
+            X: =39
             Y: =189
             ZIndex: =7
 
