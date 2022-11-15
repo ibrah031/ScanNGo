@@ -260,3 +260,12 @@
         StartNumber: =0
         ZIndex: =8
 
+    Label17 As label:
+        Height: =70
+        Size: =21
+        Text: =Component1_2.NumberOutput
+        Width: =560
+        X: =40
+        Y: =1020
+        ZIndex: =9
+
