@@ -241,7 +241,7 @@ ScannedItem As screen:
         Height: =70
         Size: =21
         Text: |-
-            ="SubTotal: $" & Slider1_1.Value * BrowseGallery.Selected.Price & ".00"
+            ="SubTotal: $" & Slider1_1.Value * BrowseGallery1_1.Selected.Price & ".00"
         Width: =560
         X: =29
         Y: =824
