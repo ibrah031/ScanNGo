@@ -1,6 +1,7 @@
 {
   "ComponentIndexes": {
-    "Component1": 16
+    "Component1": 16,
+    "Component1_1": 17
   },
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
@@ -22,6 +23,8 @@
     "Button1": 255,
     "Button11": 274,
     "Button11_1": 276,
+    "Button11_2": 280,
+    "Button11_3": 279,
     "Button2": 124,
     "Button2_1": 244,
     "Button3": 34,
@@ -36,6 +39,7 @@
     "Button9": 40,
     "Cart": 163,
     "Component1": 3,
+    "Component1_1": 277,
     "Customer Home Page": 214,
     "Customer page": 191,
     "Customer_Sign_Up": 240,
@@ -262,6 +266,7 @@
     "TextInput1_3": 123,
     "TextInput2": 37,
     "TextInput3": 272,
+    "TextInput3_1": 278,
     "TextSearchBox1": 55,
     "Title1": 59,
     "Title1_1": 202,
@@ -279,7 +284,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "11/15/2022 06:17:59",
+  "HeaderLastSavedDateTimeUTC": "11/15/2022 06:20:14",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "3ede3aa5-3814-40cd-91e0-d6f3385e0167": "\"/providers/microsoft.powerapps/apis/shared_excelonlinebusiness/connections/cfdb8c58d0fd45de8749330830243567\""
@@ -302,9 +307,11 @@
     "soy candle": "https://docserverpwaprodwus.blob.core.windows.net/5bce1440-4fc7-40e6-8b45-d1a583ed0e95-1/resource/Assets0Images00006.jpeg?sv=2017-04-17&sr=b&sig=CfiC3TPUYgB%2BWmn%2FHrhYkNpoNRBRgtcJTKB5OD34vQI%3D&spr=https&se=2022-11-16T06%3A04%3A57Z&sp=r"
   },
   "OrderComponentMetadata": {
+    "635d60e0764844e08f1338d39e15274b": 1,
     "b08eb26c328d40a0a728be4ebe8757be": 0
   },
   "OrderComponentTemplate": {
+    "635d60e0764844e08f1338d39e15274b": 1,
     "b08eb26c328d40a0a728be4ebe8757be": 0
   },
   "OrderDataSource": {
@@ -368,8 +375,10 @@
     "BrowseGallery1_2": 25,
     "Browsing Gallery": 0,
     "Button1": 17,
-    "Button11": 254,
-    "Button11_1": 253,
+    "Button11": 253,
+    "Button11_1": 252,
+    "Button11_2": 256,
+    "Button11_3": 255,
     "Button2": 97,
     "Button2_1": 6,
     "Button3": 236,
@@ -384,6 +393,7 @@
     "Button9": 250,
     "Cart": 41,
     "Component1": 1,
+    "Component1_1": 1,
     "Customer Home Page": 67,
     "Customer page": 1,
     "Customer_Sign_Up": 88,
@@ -609,7 +619,8 @@
     "TextInput1_2": 94,
     "TextInput1_3": 96,
     "TextInput2": 247,
-    "TextInput3": 252,
+    "TextInput3": 251,
+    "TextInput3_1": 254,
     "TextSearchBox1": 133,
     "Title1": 137,
     "Title1_1": 52,
@@ -639,10 +650,11 @@
   "VolatileProperties": {
     "AnalysisLoadTime": 1.8717318,
     "ControlCount": {
+      "635d60e0764844e08f1338d39e15274b": 1,
       "arrow": 2,
-      "b08eb26c328d40a0a728be4ebe8757be": 1,
+      "b08eb26c328d40a0a728be4ebe8757be": 2,
       "barcodeScanner": 1,
-      "button": 22,
+      "button": 24,
       "form": 3,
       "gallery": 8,
       "galleryTemplate": 8,
@@ -653,7 +665,7 @@
       "rectangle": 14,
       "screen": 16,
       "slider": 1,
-      "text": 16,
+      "text": 17,
       "typedDataCard": 17
     },
     "DeserializationLoadTime": 3.0604296,

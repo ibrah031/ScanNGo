@@ -1,6 +1,6 @@
 {
   "ControlStates": {
-    "Button11": {
+    "Button11_2": {
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
         {
@@ -119,7 +119,7 @@
       "IsLocked": false,
       "LayoutName": "",
       "MetaDataIDKey": "",
-      "Name": "Button11",
+      "Name": "Button11_2",
       "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -307,7 +307,7 @@
       "StyleName": "defaultButtonStyle",
       "Type": "ControlInfo"
     },
-    "Button11_1": {
+    "Button11_3": {
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
         {
@@ -418,7 +418,7 @@
       "IsLocked": false,
       "LayoutName": "",
       "MetaDataIDKey": "",
-      "Name": "Button11_1",
+      "Name": "Button11_3",
       "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -601,18 +601,11 @@
       "StyleName": "defaultButtonStyle",
       "Type": "ControlInfo"
     },
-    "Component1": {
+    "Component1_1": {
       "AllowAccessToGlobals": false,
       "ControlPropertyState": [
         "Fill",
-        {
-          "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "640",
-          "InvariantPropertyName": "Height",
-          "IsLockable": false,
-          "NameMapSourceSchema": "?"
-        },
+        "Height",
         "Width",
         "X",
         "Y",
@@ -631,7 +624,7 @@
       "IsLocked": false,
       "LayoutName": "",
       "MetaDataIDKey": "",
-      "Name": "Component1",
+      "Name": "Component1_1",
       "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -673,28 +666,28 @@
         {
           "Category": "Design",
           "PropertyName": "Width",
-          "RuleProviderType": "Unknown"
+          "RuleProviderType": "System"
         },
         {
           "Category": "Design",
           "PropertyName": "X",
-          "RuleProviderType": "Unknown"
+          "RuleProviderType": "System"
         },
         {
           "Category": "Design",
           "PropertyName": "Y",
-          "RuleProviderType": "Unknown"
+          "RuleProviderType": "System"
         },
         {
           "Category": "Design",
           "PropertyName": "ZIndex",
-          "RuleProviderType": "Unknown"
+          "RuleProviderType": "System"
         }
       ],
       "StyleName": "",
       "Type": "ControlInfo"
     },
-    "TextInput3": {
+    "TextInput3_1": {
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
         {
@@ -780,7 +773,7 @@
       "IsLocked": false,
       "LayoutName": "",
       "MetaDataIDKey": "",
-      "Name": "TextInput3",
+      "Name": "TextInput3_1",
       "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -979,5 +972,5 @@
       "Type": "ControlInfo"
     }
   },
-  "TopParentName": "Component1"
+  "TopParentName": "Component1_1"
 }
