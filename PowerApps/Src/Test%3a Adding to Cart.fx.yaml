@@ -253,3 +253,11 @@
         Y: =924
         ZIndex: =7
 
+    Component1_2 As Component1:
+        Increments: =1
+        Max: =1
+        Min: =0
+        StartNumber: =0
+        Y: =936
+        ZIndex: =8
+

@@ -1,7 +1,8 @@
 {
   "ComponentIndexes": {
     "Component1": 16,
-    "Component1_1": 17
+    "Component1_1": 17,
+    "Component1_2": 16
   },
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
@@ -40,6 +41,7 @@
     "Cart": 163,
     "Component1": 3,
     "Component1_1": 277,
+    "Component1_2": 282,
     "Customer Home Page": 214,
     "Customer page": 191,
     "Customer_Sign_Up": 240,
@@ -284,7 +286,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "11/15/2022 06:20:14",
+  "HeaderLastSavedDateTimeUTC": "11/15/2022 06:23:41",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "3ede3aa5-3814-40cd-91e0-d6f3385e0167": "\"/providers/microsoft.powerapps/apis/shared_excelonlinebusiness/connections/cfdb8c58d0fd45de8749330830243567\""
@@ -349,14 +351,14 @@
     "arrow": 9,
     "barcodeScanner": 10,
     "button": 5,
-    "form": 6,
+    "form": 7,
     "gallery": 0,
     "icon": 3,
     "image": 1,
     "label": 2,
     "rectangle": 4,
-    "slider": 7,
-    "text": 8
+    "slider": 8,
+    "text": 6
   },
   "PublishOrderIndices": {
     "Account_Settings": 2,
@@ -394,6 +396,7 @@
     "Cart": 41,
     "Component1": 1,
     "Component1_1": 1,
+    "Component1_2": 1,
     "Customer Home Page": 67,
     "Customer page": 1,
     "Customer_Sign_Up": 88,
@@ -652,7 +655,7 @@
     "ControlCount": {
       "635d60e0764844e08f1338d39e15274b": 1,
       "arrow": 2,
-      "b08eb26c328d40a0a728be4ebe8757be": 2,
+      "b08eb26c328d40a0a728be4ebe8757be": 3,
       "barcodeScanner": 1,
       "button": 24,
       "form": 3,

@@ -15,7 +15,12 @@ Component1 As CanvasComponent:
         Align: =Align.Center
         BorderColor: =RGBA(166, 166, 166, 1)
         BorderThickness: =0.5
-        Default: =If(IsBlank(Component1.NumberOutput),Value(Component1.StartNumber),Component1.NumberOutput)
+        Default: |-
+            =If(
+                IsBlank(Component1.NumberOutput),
+                Value(Component1.StartNumber),
+                Component1.NumberOutput
+            )
         Fill: =RGBA(0, 0, 0, 0)
         Height: =76
         Size: =21
@@ -31,11 +36,17 @@ Component1 As CanvasComponent:
         Fill: =RGBA(0, 0, 0, 0)
         Height: =56
         OnSelect: |-
-            =If((Component1.NumberOutput + Value(Component1.Increments)) > Value(Component1.Max),
-                Set(varNumber, Value(TextInput3.Text)),
-            
-                Set(varNumber, Value(TextInput3.Text) + Value(Component1.Increments))
+            =If(
+                (Component1.NumberOutput + Value(Component1.Increments)) > Value(Component1.Max),
+                Set(
+                    varNumber,
+                    Value(TextInput3.Text)
+                ),
+                Set(
+                    varNumber,
+                    Value(TextInput3.Text) + Value(Component1.Increments)
                 )
+            )
         RadiusBottomLeft: =30
         RadiusBottomRight: =30
         RadiusTopLeft: =30
