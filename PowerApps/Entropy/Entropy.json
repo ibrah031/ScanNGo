@@ -243,7 +243,7 @@
     "SKU_DataCard11": 167,
     "SKU_DataCard14": 252,
     "Slider1": 41,
-    "Slider1_1": 149,
+    "Slider1_2": 285,
     "SoyCandleImage": 3,
     "StarVisible26": 174,
     "StarVisible27": 179,
@@ -289,7 +289,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "11/16/2022 22:44:03",
+  "HeaderLastSavedDateTimeUTC": "11/16/2022 22:45:37",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "3ede3aa5-3814-40cd-91e0-d6f3385e0167": "\"/providers/microsoft.powerapps/apis/shared_excelonlinebusiness/connections/cfdb8c58d0fd45de8749330830243567\""
@@ -541,7 +541,7 @@
     "Label1_9": 90,
     "Label10": 35,
     "Label11": 237,
-    "Label11_2": 58,
+    "Label11_2": 57,
     "Label12": 31,
     "Label13": 48,
     "Label13_1": 72,
@@ -598,7 +598,7 @@
     "SearchIcon1": 142,
     "seeInventory": 112,
     "Separator1": 149,
-    "Separator1_1": 56,
+    "Separator1_1": 58,
     "Separator12": 83,
     "Separator2": 134,
     "Separator2_1": 123,
@@ -608,7 +608,7 @@
     "SKU_DataCard11": 192,
     "SKU_DataCard14": 156,
     "Slider1": 236,
-    "Slider1_1": 57,
+    "Slider1_2": 56,
     "SoyCandleImage": 9,
     "StarVisible26": 199,
     "StarVisible27": 204,
@@ -684,12 +684,12 @@
       "label": 113,
       "rectangle": 14,
       "screen": 16,
-      "slider": 2,
+      "slider": 3,
       "text": 18,
       "typedDataCard": 15
     },
     "DeserializationLoadTime": 3.2944279,
-    "ErrorCount": 5
+    "ErrorCount": 3
   },
   "WasLocalDatabaseReferencesEmpty": true
 }

@@ -100,7 +100,7 @@ Cart As screen:
             PaddingRight: =0
             PaddingTop: =0
             Text: |
-                ="SubTotal: $" & Label11_1.Text
+                =Label11_2.Text
             VerticalAlign: =VerticalAlign.Top
             Width: =Subtitle10.Width
             X: =159
