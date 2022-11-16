@@ -111,7 +111,11 @@ ScannedItem As screen:
 
     Image8 As image:
         Height: =340
-        Image: =Title1.Text & ".jpeg"
+        Image: |-
+            =If (
+                Title1.Text = 'Lavender Candle',
+                'Lavender Candle'
+            )
         Visible: =_image
         Width: =355
         X: =132
@@ -229,7 +233,7 @@ ScannedItem As screen:
 
     Slider1_1 As slider:
         Default: =0
-        Height: =44
+        Height: =61
         Max: =20
         Width: =214
         X: =27
