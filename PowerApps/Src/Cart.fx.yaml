@@ -21,7 +21,7 @@ Cart As screen:
         ZIndex: =1
 
         Image9 As image:
-            Height: =128
+            Height: =167
             Image: =Image8
             OnSelect: =Select(Parent)
             Width: =128
@@ -54,7 +54,7 @@ Cart As screen:
             VerticalAlign: =VerticalAlign.Top
             Width: =Title12.Width
             X: =Title12.X
-            Y: =Title12.Y + Title12.Height + 2
+            Y: =62
             ZIndex: =3
 
         Body4 As label:
@@ -68,7 +68,7 @@ Cart As screen:
             VerticalAlign: =VerticalAlign.Top
             Width: =Subtitle10.Width
             X: =144
-            Y: =94
+            Y: =116
             ZIndex: =4
 
         Separator12 As rectangle:
