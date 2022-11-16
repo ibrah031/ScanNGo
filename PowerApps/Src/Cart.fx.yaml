@@ -30,7 +30,7 @@ Cart As screen:
             ZIndex: =1
 
         Title12 As label:
-            Height: =55
+            Height: =36
             OnSelect: =Select(Parent)
             PaddingBottom: =0
             PaddingLeft: =0
@@ -39,12 +39,12 @@ Cart As screen:
             Text: =ThisItem.Title
             VerticalAlign: =VerticalAlign.Top
             Width: =Parent.TemplateWidth - Image9.Width - 104
-            X: =144
-            Y: =39
+            X: =142
+            Y: =7
             ZIndex: =2
 
         Subtitle10 As label:
-            Height: =Self.Size * 1.8
+            Height: =39
             OnSelect: =Select(Parent)
             PaddingBottom: =0
             PaddingLeft: =0
@@ -53,8 +53,8 @@ Cart As screen:
             Text: =ThisItem.ItemDescription
             VerticalAlign: =VerticalAlign.Top
             Width: =Title12.Width
-            X: =Title12.X
-            Y: =62
+            X: =142
+            Y: =43
             ZIndex: =3
 
         Body4 As label:
@@ -67,8 +67,8 @@ Cart As screen:
             Text: =ThisItem.Price  
             VerticalAlign: =VerticalAlign.Top
             Width: =Subtitle10.Width
-            X: =144
-            Y: =116
+            X: =142
+            Y: =90
             ZIndex: =4
 
         Separator12 As rectangle:
@@ -88,8 +88,8 @@ Cart As screen:
             Text: =ThisItem.Qty
             VerticalAlign: =VerticalAlign.Top
             Width: =Subtitle10.Width
-            X: =160
-            Y: =140
+            X: =142
+            Y: =132
             ZIndex: =7
 
         Body4_2 As label:
@@ -103,8 +103,8 @@ Cart As screen:
                 ="SubTotal: $" & Slider1_1.Value * BrowseGallery1_1.Selected.Price & ".00"
             VerticalAlign: =VerticalAlign.Top
             Width: =Subtitle10.Width
-            X: =160
-            Y: =190
+            X: =144
+            Y: =185
             ZIndex: =8
 
         Icon14 As icon.Trash:
