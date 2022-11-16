@@ -68,7 +68,7 @@ Cart As screen:
             VerticalAlign: =VerticalAlign.Top
             Width: =Subtitle10.Width
             X: =142
-            Y: =90
+            Y: =105
             ZIndex: =4
 
         Separator12 As rectangle:
@@ -112,6 +112,7 @@ Cart As screen:
             OnSelect: |-
                 =Remove(collectMultiScan, ThisItem);
                 Reset(BrowseGallery1_1);
+                Reset(Slider1_1);
             X: =550
             Y: =94
             ZIndex: =9
