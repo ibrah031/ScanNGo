@@ -111,7 +111,7 @@ ScannedItem As screen:
 
     Image8 As image:
         Height: =340
-        Image: ='soy candle'
+        Image: =Text(SearchValue, " ")
         Visible: =_image
         Width: =355
         X: =132
