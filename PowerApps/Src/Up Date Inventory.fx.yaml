@@ -25,7 +25,7 @@
         AccessibleLabel: =Self.Tooltip
         Height: =88
         Icon: =Icon.Check
-        OnSelect: =EditForm(Form6) & Navigate(Inventory)
+        OnSelect: =SubmitForm(Form6) & Navigate(Inventory)
         PaddingBottom: =22
         PaddingLeft: =22
         PaddingRight: =22

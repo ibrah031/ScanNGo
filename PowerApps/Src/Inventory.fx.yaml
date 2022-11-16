@@ -95,6 +95,7 @@
         AccessibleLabel: =IconRefresh1.Tooltip
         Height: =88
         Icon: =Icon.Reload
+        OnSelect: =Refresh(Data)
         PaddingBottom: =22
         PaddingLeft: =22
         PaddingRight: =22
