@@ -111,7 +111,8 @@ ScannedItem As screen:
 
     Image8 As image:
         Height: =340
-        Image: =Text(SearchValue, " ")
+        Image: |-
+            =Right(Body1_1.Text,Find(":",Body1_1.Text))
         Visible: =_image
         Width: =355
         X: =132

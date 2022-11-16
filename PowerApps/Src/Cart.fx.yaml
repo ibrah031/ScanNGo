@@ -22,7 +22,8 @@ Cart As screen:
 
         Image9 As image:
             Height: =128
-            Image: =ThisItem.Image
+            Image: |-
+                =Right(Body1_1.Text,Find(":",Body1_1.Text))
             OnSelect: =Select(Parent)
             Width: =128
             X: =16
