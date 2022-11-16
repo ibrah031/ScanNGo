@@ -21,12 +21,12 @@ Cart As screen:
         ZIndex: =1
 
         Image9 As image:
-            Height: =142
+            Height: =120
             Image: =Image8
             OnSelect: =Select(Parent)
-            Width: =145
+            Width: =123
             X: =14
-            Y: =55
+            Y: =66
             ZIndex: =1
 
         Title12 As label:

@@ -113,14 +113,15 @@ ScannedItem As screen:
     Image8 As image:
         Height: =340
         Image: |-
-            =If(
+            =/*If(
                 !IsBlank(Title1_1.Text),
                 LookUp(
                     Data,
                     ItemName = SearchValue
                 ).'Image [image]'
-            )
-        Visible: =_image
+            )*/
+            SampleImage
+        Visible: =true //_image
         Width: =355
         X: =132
         Y: =182
