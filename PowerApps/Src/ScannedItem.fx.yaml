@@ -88,7 +88,8 @@ ScannedItem As screen:
     Add_to_cart As button:
         Height: =42
         OnSelect: |+
-            =Collect(collectMultiScan, {Title: SearchValue, ItemDescription: Body1_1, Price: Body1_2, Qty: Body1_3, SubTotal: (Slider1_1.Value * Body1_2)});  
+            =Collect(collectMultiScan, {Title: SearchValue, ItemDescription: Body1_1, Price: Body1_2, Qty: Body1_3, SubTotal: (Slider1_1.Value * Body1_2)}); 
+            Reset(Slider1_1); 
             
         Size: =24
         Text: ="Add to cart"
