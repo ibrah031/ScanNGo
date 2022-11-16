@@ -2444,17 +2444,17 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "App._image"
+                  "fullyQualifiedName": "App._ATC"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "App._image",
+                  "fullyQualifiedName": "App._ATC",
                   "relativeAddress": 0
                 }
               },
               "properties": {
-                "member": "_image",
+                "member": "_ATC",
                 "module": "App",
                 "type": "App"
               }
@@ -2504,17 +2504,17 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "App._ATC"
+                  "fullyQualifiedName": "App._image"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "App._ATC",
+                  "fullyQualifiedName": "App._image",
                   "relativeAddress": 0
                 }
               },
               "properties": {
-                "member": "_ATC",
+                "member": "_image",
                 "module": "App",
                 "type": "App"
               }

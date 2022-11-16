@@ -142,7 +142,7 @@
              Set(SearchValue, BarcodeScanner1.Value);
              If(
                 SearchValue in Data.ItemName,
-                true + Navigate(ScannedItem) + Set(_image, true) + Set(_cancelB, true) + Set(_ATC, true), 
+                true + Navigate(ScannedItem) + Set(_image, true) + Set(_cancelB, true) + Set(_ATC, true) + Reset(Slider1_2), 
                 //Set(barVal, true) + 
                 //Set(browsegallery, true),
                 false +  Notify("ITEM NOT FOUND", NotificationType.Error)
