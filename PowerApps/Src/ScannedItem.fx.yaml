@@ -88,8 +88,8 @@ ScannedItem As screen:
     Add_to_cart As button:
         Height: =45
         OnSelect: |+
-            =Collect(collectMultiScan, {Title: SearchValue, ItemDescription: Body1_1, Price: Body1_2, Qty: Body1_3, SubTotal: (Slider1_1.Value * Body1_2)}); 
-            Reset(Slider1_1); 
+            =Collect(collectMultiScan, {Title: SearchValue, ItemDescription: Body1_1, Price: Body1_2, Qty: Body1_3, SubTotal: (Slider1_1.Value * BrowseGallery1_1.Selected.Price)}); 
+            Reset(Slider1_1);
             
         Size: =24
         Text: ="Add to cart"
@@ -236,6 +236,16 @@ ScannedItem As screen:
             Y: =177
             ZIndex: =7
 
+        Label11_2 As label:
+            Height: =70
+            Size: =21
+            Text: |-
+                ="SubTotal: $" & Slider1_1.Value * ThisItem.Price & ".00"
+            Width: =560
+            X: =32
+            Y: =275
+            ZIndex: =8
+
     Slider1_1 As slider:
         Default: =1
         Height: =61
@@ -244,14 +254,4 @@ ScannedItem As screen:
         X: =27
         Y: =780
         ZIndex: =26
-
-    Label11_1 As label:
-        Height: =70
-        Size: =21
-        Text: |-
-            ="SubTotal: $" & Slider1_1.Value * BrowseGallery1_1.Selected.Price & ".00"
-        Width: =560
-        X: =29
-        Y: =824
-        ZIndex: =27
 
