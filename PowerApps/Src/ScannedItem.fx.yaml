@@ -86,29 +86,28 @@ ScannedItem As screen:
         ZIndex: =13
 
     Add_to_cart As button:
-        Height: =42
-        OnSelect: |
+        Height: =45
+        OnSelect: |+
             =Collect(collectMultiScan, {Title: SearchValue, ItemDescription: Body1_1, Price: Body1_2, Qty: Body1_3, SubTotal: (Slider1_1.Value * Body1_2)}); 
             Reset(Slider1_1); 
-            Reset(BrowseGallery1_1);
-            Title1_1.Text = "";
+            
         Size: =24
         Text: ="Add to cart"
-        Visible: =_ATC
-        Width: =217
+        Visible: =true//_ATC
+        Width: =247
         X: =24
-        Y: =939
+        Y: =936
         ZIndex: =19
 
     Button3_1 As button:
-        Height: =55
+        Height: =45
         OnSelect: =Navigate('Customer Home Page')
         Size: =24
         Text: ="Cancel"
-        Visible: =_cancelB
+        Visible: =true //_cancelB
         Width: =247
-        X: =340
-        Y: =913
+        X: =342
+        Y: =936
         ZIndex: =20
 
     Image8 As image:
