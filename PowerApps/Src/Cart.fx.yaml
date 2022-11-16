@@ -259,7 +259,7 @@ Cart As screen:
             Text: |-
                 ="Thank you for shopping with us!
                 
-                Pleae head towards the cashier to pay for your items"
+                Please head towards the cashier to pay for your items"
             Visible: =_purchase
             Width: =549
             X: =42
