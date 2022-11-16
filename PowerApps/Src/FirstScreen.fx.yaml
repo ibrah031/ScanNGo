@@ -1,5 +1,5 @@
 FirstScreen As screen:
-    Fill: =RGBA(149, 149, 149, 1)
+    Fill: =RGBA(167, 182, 203, 1)
 
     "'Customer page' As button":
         BorderColor: =ColorFade(Self.Fill, -100%)
