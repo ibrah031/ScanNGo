@@ -1,7 +1,8 @@
 {
   "ComponentIndexes": {
     "Component1": 16,
-    "Component1_1": 17
+    "Component1_1": 17,
+    "SoyCandleImage": 18
   },
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
@@ -123,6 +124,7 @@
     "Icon11_1": 70,
     "Icon11_2": 206,
     "Icon12": 110,
+    "Icon14": 288,
     "Icon2": 247,
     "Icon3": 261,
     "Icon4": 268,
@@ -153,6 +155,7 @@
     "Image2": 49,
     "Image2_1": 61,
     "Image3": 22,
+    "Image4": 284,
     "Image6": 195,
     "Image7": 114,
     "Image8": 72,
@@ -212,7 +215,6 @@
     "logo": 56,
     "logo_1": 44,
     "NextArrow1": 38,
-    "NextArrow10": 213,
     "NextArrow2": 51,
     "NextArrow2_1": 63,
     "NextArrow6": 197,
@@ -245,6 +247,7 @@
     "SKU_DataCard16": 130,
     "Slider1": 106,
     "Slider1_1": 80,
+    "SoyCandleImage": 283,
     "StarVisible41": 145,
     "StarVisible44": 150,
     "StarVisible45": 140,
@@ -289,7 +292,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "11/15/2022 22:41:58",
+  "HeaderLastSavedDateTimeUTC": "11/16/2022 00:22:09",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "3ede3aa5-3814-40cd-91e0-d6f3385e0167": "\"/providers/microsoft.powerapps/apis/shared_excelonlinebusiness/connections/cfdb8c58d0fd45de8749330830243567\""
@@ -313,11 +316,13 @@
   },
   "OrderComponentMetadata": {
     "635d60e0764844e08f1338d39e15274b": 1,
-    "b08eb26c328d40a0a728be4ebe8757be": 0
+    "b08eb26c328d40a0a728be4ebe8757be": 0,
+    "eed054cea8194bf09981049dfe793d4c": 2
   },
   "OrderComponentTemplate": {
     "635d60e0764844e08f1338d39e15274b": 1,
-    "b08eb26c328d40a0a728be4ebe8757be": 0
+    "b08eb26c328d40a0a728be4ebe8757be": 0,
+    "eed054cea8194bf09981049dfe793d4c": 2
   },
   "OrderDataSource": {
     "collectMultiScan": 5,
@@ -482,6 +487,7 @@
     "Icon11_1": 47,
     "Icon11_2": 71,
     "Icon12": 243,
+    "Icon14": 0,
     "Icon2": 34,
     "Icon3": 5,
     "Icon4": 12,
@@ -512,6 +518,7 @@
     "Image2": 130,
     "Image2_1": 119,
     "Image3": 0,
+    "Image4": 0,
     "Image6": 218,
     "Image7": 246,
     "Image8": 49,
@@ -571,7 +578,6 @@
     "logo": 114,
     "logo_1": 125,
     "NextArrow1": 147,
-    "NextArrow10": 80,
     "NextArrow2": 132,
     "NextArrow2_1": 121,
     "NextArrow6": 220,
@@ -604,6 +610,7 @@
     "SKU_DataCard16": 191,
     "Slider1": 239,
     "Slider1_1": 57,
+    "SoyCandleImage": 0,
     "StarVisible41": 206,
     "StarVisible44": 211,
     "StarVisible45": 201,
@@ -669,7 +676,7 @@
       "gallery": 8,
       "galleryTemplate": 8,
       "group": 3,
-      "icon": 36,
+      "icon": 38,
       "image": 14,
       "label": 113,
       "rectangle": 14,
