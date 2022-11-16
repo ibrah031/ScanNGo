@@ -111,9 +111,14 @@ ScannedItem As screen:
 
     Image8 As image:
         Height: =340
-        Image: |
-            =LookUp(Data, ItemName = Title1_1.Text).'Image [image]'
-                
+        Image: |-
+            =If(
+                !IsBlank(Title1_1),
+                LookUp(
+                    Data,
+                    ItemName = SearchValue
+                ).'Image [image]'
+            )
         Visible: =_image
         Width: =355
         X: =132
