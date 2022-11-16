@@ -100,7 +100,7 @@ Cart As screen:
             PaddingRight: =0
             PaddingTop: =0
             Text: |
-                =Label11_2.Text
+                ="Total Price of Item(s): $" & Slider1.Value * BrowseGallery1_1.Selected.Price & ".00"
             VerticalAlign: =VerticalAlign.Top
             Width: =Subtitle10.Width
             X: =159
