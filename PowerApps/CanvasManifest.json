@@ -92,10 +92,10 @@
     "DocumentType": "App",
     "EnableInstrumentation": false,
     "FileID": "1b950cfe-05d4-43a5-812a-cb3aa4292fde",
-    "Id": "5ae4d11a-6296-4901-a885-583e26bb18d4",
+    "Id": "e6ef4a2b-ded1-47d6-a210-31324a06e7fb",
     "InstrumentationKey": "",
     "LocalDatabaseReferences": "{}",
-    "Name": "Scan N Go",
+    "Name": "Scan+N+Go.msapp",
     "OriginatingVersion": "1.326"
   },
   "PublishInfo": {
