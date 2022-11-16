@@ -109,7 +109,9 @@ Cart As screen:
 
         Icon14 As icon.Trash:
             Icon: =Icon.Trash
-            OnSelect: =Remove(collectMultiScan, ThisItem)
+            OnSelect: |-
+                =Remove(collectMultiScan, ThisItem);
+                Reset(BrowseGallery1_1);
             X: =550
             Y: =94
             ZIndex: =9
