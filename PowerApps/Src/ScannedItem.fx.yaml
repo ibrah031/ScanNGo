@@ -113,7 +113,7 @@ ScannedItem As screen:
         Height: =340
         Image: |-
             =If(
-                !IsBlank(Title1_1),
+                !IsBlank(Title1_1.Text),
                 LookUp(
                     Data,
                     ItemName = SearchValue

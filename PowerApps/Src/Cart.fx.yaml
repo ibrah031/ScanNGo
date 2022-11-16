@@ -22,7 +22,7 @@ Cart As screen:
 
         Image9 As image:
             Height: =128
-            Image: =Title1.Text & ".jpeg"
+            Image: =Image8
             OnSelect: =Select(Parent)
             Width: =128
             X: =16
@@ -39,8 +39,8 @@ Cart As screen:
             Text: =ThisItem.Title
             VerticalAlign: =VerticalAlign.Top
             Width: =Parent.TemplateWidth - Image9.Width - 104
-            X: =Image9.X + Image9.Width + 16
-            Y: =16
+            X: =144
+            Y: =39
             ZIndex: =2
 
         Subtitle10 As label:
@@ -67,8 +67,8 @@ Cart As screen:
             Text: =ThisItem.Price  
             VerticalAlign: =VerticalAlign.Top
             Width: =Subtitle10.Width
-            X: =160
-            Y: =71
+            X: =144
+            Y: =94
             ZIndex: =4
 
         Separator12 As rectangle:
@@ -89,7 +89,7 @@ Cart As screen:
             VerticalAlign: =VerticalAlign.Top
             Width: =Subtitle10.Width
             X: =160
-            Y: =113
+            Y: =140
             ZIndex: =7
 
         Body4_2 As label:
@@ -103,8 +103,8 @@ Cart As screen:
                 ="SubTotal: $" & Slider1_1.Value * BrowseGallery1_1.Selected.Price & ".00"
             VerticalAlign: =VerticalAlign.Top
             Width: =Subtitle10.Width
-            X: =167
-            Y: =166
+            X: =160
+            Y: =190
             ZIndex: =8
 
         Icon14 As icon.Trash:
