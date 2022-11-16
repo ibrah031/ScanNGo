@@ -237,7 +237,7 @@ ScannedItem As screen:
             ZIndex: =7
 
     Slider1_1 As slider:
-        Default: =0
+        Default: =1
         Height: =61
         Max: =20
         Width: =214
