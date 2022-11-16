@@ -1934,19 +1934,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Up Date Inventory'.Form4.Price_DataCard5.DataCardValue27.AccessibleLabel"
+                  "fullyQualifiedName": "'Up Date Inventory'.Form6.Quantity_DataCard6.DataCardValue39.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Up Date Inventory'.Form4.Price_DataCard5.DataCardValue27.AccessibleLabel",
+                  "fullyQualifiedName": "'Up Date Inventory'.Form6.Quantity_DataCard6.DataCardValue39.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Up Date Inventory",
-                "type": "'Up Date Inventory'.Form4.Price_DataCard5.DataCardValue27"
+                "type": "'Up Date Inventory'.Form6.Quantity_DataCard6.DataCardValue39"
               }
             }
           ],
@@ -1964,19 +1964,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Up Date Inventory'.Dropdown3.AccessibleLabel"
+                  "fullyQualifiedName": "'Up Date Inventory'.Form6.Price_DataCard7.DataCardValue38.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Up Date Inventory'.Dropdown3.AccessibleLabel",
+                  "fullyQualifiedName": "'Up Date Inventory'.Form6.Price_DataCard7.DataCardValue38.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Up Date Inventory",
-                "type": "'Up Date Inventory'.Dropdown3"
+                "type": "'Up Date Inventory'.Form6.Price_DataCard7.DataCardValue38"
               }
             }
           ],
@@ -1994,19 +1994,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Up Date Inventory'.Form4.WholesalePrice_DataCard3.DataCardValue30.AccessibleLabel"
+                  "fullyQualifiedName": "'Up Date Inventory'.ItemWanted.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Up Date Inventory'.Form4.WholesalePrice_DataCard3.DataCardValue30.AccessibleLabel",
+                  "fullyQualifiedName": "'Up Date Inventory'.ItemWanted.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Up Date Inventory",
-                "type": "'Up Date Inventory'.Form4.WholesalePrice_DataCard3.DataCardValue30"
+                "type": "'Up Date Inventory'.ItemWanted"
               }
             }
           ],
@@ -2414,19 +2414,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Up Date Inventory'.Form4.Quantity_DataCard4.DataCardValue28.AccessibleLabel"
+                  "fullyQualifiedName": "'Up Date Inventory'.Form6.WholesalePrice_DataCard5.DataCardValue40.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Up Date Inventory'.Form4.Quantity_DataCard4.DataCardValue28.AccessibleLabel",
+                  "fullyQualifiedName": "'Up Date Inventory'.Form6.WholesalePrice_DataCard5.DataCardValue40.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Up Date Inventory",
-                "type": "'Up Date Inventory'.Form4.Quantity_DataCard4.DataCardValue28"
+                "type": "'Up Date Inventory'.Form6.WholesalePrice_DataCard5.DataCardValue40"
               }
             }
           ],
