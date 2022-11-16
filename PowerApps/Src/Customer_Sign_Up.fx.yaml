@@ -1,5 +1,5 @@
 Customer_Sign_Up As screen:
-    Fill: =RGBA(255, 255, 255, 1)
+    Fill: =RGBA(214, 223, 238, 1)
 
     Button2_1 As button:
         Height: =50
