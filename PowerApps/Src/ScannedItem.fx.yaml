@@ -112,11 +112,11 @@ ScannedItem As screen:
     Image8 As image:
         Height: =340
         Image: |-
-            =
-            If (
-                Title1.Text = "Lavender Candle",
-                'Lavender Candle'
-            )
+            ='Lavender Candle'
+            //If (
+             //   Title1.Text = "Lavender Candle",
+             //   'Lavender Candle'
+            //)
         Visible: =_image
         Width: =355
         X: =132
